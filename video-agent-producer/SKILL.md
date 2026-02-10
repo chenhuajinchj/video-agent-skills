@@ -2,14 +2,14 @@
 name: video-agent-producer
 description: >
   视频团队的制片人/总调度。接收用户主题，拆解为子任务，按顺序调度其他 Agent
-  （operator → researcher → writer → storyboarder → voice + visual → editor → publisher），
-  管理检查点和断点恢复。
+  （operator → researcher → writer → storyboarder → voice + visual → editor(s) → publisher），
+  管理检查点和断点恢复。支持双剪辑师调度（达芬奇/剪映/两者）。
   触发条件："开始制作视频"、"创建视频项目"、"视频项目状态"、"继续视频项目"、"帮我选个题"
 ---
 
 # video-agent-producer
 
-认知成长视频制作团队的制片人/总调度。负责接收用户主题，拆解为子任务，按顺序调度其他 Agent（operator → researcher → writer → storyboarder → voice + visual → editor → publisher），管理 4 个人工检查点和 1 个自动交接包检查，处理断点恢复。
+认知成长视频制作团队的制片人/总调度。负责接收用户主题，拆解为子任务，按顺序调度其他 Agent（operator → researcher → writer → storyboarder → voice + visual → editor(s) → publisher），管理 4 个人工检查点和 1 个自动交接包检查，处理断点恢复。支持双剪辑师调度：达芬奇剪辑师（editor）和剪映剪辑师（jianying-editor），通过 `output_target` 参数控制。
 
 ## 触发条件
 
@@ -45,7 +45,7 @@ description: >
    - `voice`：输入 `script.md` + `voice-direction.md` → 输出 `audio/voiceover.mp3` + `audio/subtitles.srt`
    - `visual`：输入 `storyboard.md` → 输出 `visuals/*.jpg` + `visual-timeline.json` + `visual-report.md`
 10. **交接包检查**：确认所有素材齐全后再启动剪辑师
-11. 调用 `editor`：输入上述所有产出 → 等待达芬奇项目 + `editor-report.md`
+11. 根据 `output_target` 调度剪辑师（见下方「剪辑师调度」）
 12. **检查点 3**：展示素材预览给用户确认
 13. 调用 `publisher`：输入 `script.md` + `materials/` → 等待 `publish/`
 14. 交付完整项目包
@@ -86,6 +86,30 @@ voice + visual 完成后、editor 启动前，制片人自动执行以下检查�
 - **全部通过** → 启动剪辑师
 - **有缺失** → 报告给用户，列出缺失项，等用户决定是否继续
 
+### 步骤 11：剪辑师调度
+
+项目启动时需指定 `output_target` 参数：
+
+- `resolve`（默认）: 只调 video-agent-editor，输出到达芬奇
+- `jianying`: 只调 video-agent-jianying-editor，输出到剪映
+- `both`: 同时调两个剪辑师，分别生成达芬奇项目和剪映草稿
+
+调度逻辑：
+
+| output_target | 调度的 Agent | 产出 |
+|---------------|-------------|------|
+| `resolve` | editor | 达芬奇项目 + `editor-report.md` |
+| `jianying` | jianying-editor | 剪映草稿 + `jianying-editor-report.md` |
+| `both` | editor + jianying-editor（并行） | 两者都生成 |
+
+当 `output_target` 为 `both` 时，两个剪辑师可以并行执行，因为它们读取相同的输入文件且输出到不同的目标，互不干扰。
+
+调度顺序：
+1. voice + visual 完成后
+2. 交接包检查通过
+3. 根据 `output_target` 启动对应剪辑师（both 时并行启动）
+4. 所有剪辑师完成后，启动 publisher
+
 ### 步骤 14：operator 后置跟踪（可选）
 
 项目交付后，制片人提醒用户：
@@ -108,6 +132,7 @@ voice + visual 完成后、editor 启动前，制片人自动执行以下检查�
     "voice": { "status": "pending" },
     "visual": { "status": "pending" },
     "editor": { "status": "pending" },
+    "jianying-editor": { "status": "pending" },
     "publisher": { "status": "pending" }
   },
   "checkpoints": {
@@ -120,6 +145,7 @@ voice + visual 完成后、editor 启动前，制片人自动执行以下检查�
   "config": {
     "tts_engine": "edge-tts",
     "target_duration": "6-10min",
+    "output_target": "resolve",
     "platforms": ["douyin", "bilibili", "youtube"]
   }
 }
@@ -153,6 +179,9 @@ project-name/
 │   └── visual-timeline.json
 ├── visual-report.md
 ├── editor-report.md
+├── jianying-editor-report.md
+├── jianying-draft/
+│   └── dfd_<项目名>/
 ├── analytics/
 │   ├── report-{account}-{date}.md
 │   ├── topics-{account}-{date}.md
