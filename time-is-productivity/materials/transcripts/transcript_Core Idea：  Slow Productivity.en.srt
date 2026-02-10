@@ -1,0 +1,3052 @@
+1
+00:00:00,260 --> 00:00:02,939
+[Music]
+
+2
+00:00:05,120 --> 00:00:08,480
+uh the core idea i want to talk about
+
+3
+00:00:07,440 --> 00:00:11,679
+today
+
+4
+00:00:08,480 --> 00:00:13,759
+is the following question
+
+5
+00:00:11,679 --> 00:00:15,200
+is slow productivity
+
+6
+00:00:13,759 --> 00:00:17,520
+the solution
+
+7
+00:00:15,200 --> 00:00:20,720
+to burnout
+
+8
+00:00:17,520 --> 00:00:22,320
+so slow productivity is a emerging topic
+
+9
+00:00:20,720 --> 00:00:23,760
+of thought we've been talking about more
+
+10
+00:00:22,320 --> 00:00:25,760
+and more frequently
+
+11
+00:00:23,760 --> 00:00:27,359
+and i want to get into it with this core
+
+12
+00:00:25,760 --> 00:00:28,840
+idea
+
+13
+00:00:27,359 --> 00:00:31,760
+all right let's give some
+
+14
+00:00:28,840 --> 00:00:34,640
+background to where the concept of slow
+
+15
+00:00:31,760 --> 00:00:37,520
+productivity came from what motivated it
+
+16
+00:00:34,640 --> 00:00:39,680
+we are in a moment right now
+
+17
+00:00:37,520 --> 00:00:42,719
+in which there is a
+
+18
+00:00:39,680 --> 00:00:45,840
+popular and visible pushback against the
+
+19
+00:00:42,719 --> 00:00:47,440
+general notion of productivity
+
+20
+00:00:45,840 --> 00:00:49,920
+and by productivity i mean just the
+
+21
+00:00:47,440 --> 00:00:51,039
+general drive to try to get more things
+
+22
+00:00:49,920 --> 00:00:52,879
+done
+
+23
+00:00:51,039 --> 00:00:55,199
+now i think the coronavirus pandemic
+
+24
+00:00:52,879 --> 00:00:57,680
+helped amplify this but this movement
+
+25
+00:00:55,199 --> 00:00:59,600
+predates the coronavirus pandemic if
+
+26
+00:00:57,680 --> 00:01:02,000
+we're going to use books
+
+27
+00:00:59,600 --> 00:01:04,640
+as a rough proxy for cultural thinking
+
+28
+00:01:02,000 --> 00:01:06,799
+on this topic we can really look to 2019
+
+29
+00:01:04,640 --> 00:01:09,119
+february of 2019 when ginny odell
+
+30
+00:01:06,799 --> 00:01:10,960
+published how to do nothing
+
+31
+00:01:09,119 --> 00:01:12,640
+this book probably helped spark more
+
+32
+00:01:10,960 --> 00:01:14,880
+than anything else this
+
+33
+00:01:12,640 --> 00:01:16,000
+modern moment of anti-productivity
+
+34
+00:01:14,880 --> 00:01:17,600
+thinking
+
+35
+00:01:16,000 --> 00:01:18,720
+it was a popular book a new york times
+
+36
+00:01:17,600 --> 00:01:20,880
+bestseller
+
+37
+00:01:18,720 --> 00:01:22,560
+barack obama selected it as one of his
+
+38
+00:01:20,880 --> 00:01:24,960
+best books of the year
+
+39
+00:01:22,560 --> 00:01:28,000
+it opened the floodgates to multiple
+
+40
+00:01:24,960 --> 00:01:30,240
+other books along these same lines
+
+41
+00:01:28,000 --> 00:01:32,000
+so we got celeste headley's do nothing
+
+42
+00:01:30,240 --> 00:01:33,840
+that came out soon after
+
+43
+00:01:32,000 --> 00:01:35,600
+i actually interviewed celeste for a new
+
+44
+00:01:33,840 --> 00:01:37,680
+yorker piece this fall
+
+45
+00:01:35,600 --> 00:01:41,119
+got a little bit deeper into this we
+
+46
+00:01:37,680 --> 00:01:43,119
+also got devin price had a book called
+
+47
+00:01:41,119 --> 00:01:45,119
+laziness does not exist i blurbed that
+
+48
+00:01:43,119 --> 00:01:47,920
+book it was a good book helen ann
+
+49
+00:01:45,119 --> 00:01:48,720
+peterson had can't even
+
+50
+00:01:47,920 --> 00:01:50,479
+the
+
+51
+00:01:48,720 --> 00:01:53,200
+book length treatment of her viral
+
+52
+00:01:50,479 --> 00:01:55,680
+buzzfeed article about millennial
+
+53
+00:01:53,200 --> 00:01:57,759
+burnout uh more recently we have oliver
+
+54
+00:01:55,680 --> 00:01:59,439
+berkman had four thousand weeks which i
+
+55
+00:01:57,759 --> 00:02:00,719
+blurbed that book as well it's fantastic
+
+56
+00:01:59,439 --> 00:02:02,320
+that book's really been killing it so
+
+57
+00:02:00,719 --> 00:02:04,479
+there's been this long string of books
+
+58
+00:02:02,320 --> 00:02:05,759
+since 2019 that are all basically making
+
+59
+00:02:04,479 --> 00:02:08,800
+the same point
+
+60
+00:02:05,759 --> 00:02:10,879
+we're burnt out we're doing too much
+
+61
+00:02:08,800 --> 00:02:12,720
+we're tired of doing too much
+
+62
+00:02:10,879 --> 00:02:15,040
+i saw this anti-productivity movement
+
+63
+00:02:12,720 --> 00:02:17,120
+even among you my listeners and readers
+
+64
+00:02:15,040 --> 00:02:19,440
+in 2020 i wrote an essay from my
+
+65
+00:02:17,120 --> 00:02:21,680
+newsletter about this asking
+
+66
+00:02:19,440 --> 00:02:22,800
+is the term productivity
+
+67
+00:02:21,680 --> 00:02:24,640
+over
+
+68
+00:02:22,800 --> 00:02:26,640
+do we need something new
+
+69
+00:02:24,640 --> 00:02:28,879
+and it led to a really heated discussion
+
+70
+00:02:26,640 --> 00:02:30,400
+and two subsequent follow-up posts we
+
+71
+00:02:28,879 --> 00:02:32,879
+had a lot of back and forth discussion
+
+72
+00:02:30,400 --> 00:02:34,640
+on this in the spring of 2020 that made
+
+73
+00:02:32,879 --> 00:02:35,440
+it clear that there are a lot of you out
+
+74
+00:02:34,640 --> 00:02:38,160
+there
+
+75
+00:02:35,440 --> 00:02:40,879
+that are just exhausted
+
+76
+00:02:38,160 --> 00:02:42,640
+exhausted with activity and work
+
+77
+00:02:40,879 --> 00:02:44,400
+your life outside of work
+
+78
+00:02:42,640 --> 00:02:47,920
+and need something more than just
+
+79
+00:02:44,400 --> 00:02:49,599
+falling back on how do i get more done
+
+80
+00:02:47,920 --> 00:02:52,000
+all right so that is the the modern
+
+81
+00:02:49,599 --> 00:02:54,400
+anti-productivity movement
+
+82
+00:02:52,000 --> 00:02:57,360
+here's the issue
+
+83
+00:02:54,400 --> 00:02:58,959
+the question left unanswered in a lot of
+
+84
+00:02:57,360 --> 00:03:01,920
+this work
+
+85
+00:02:58,959 --> 00:03:03,360
+is what should we do about it
+
+86
+00:03:01,920 --> 00:03:04,879
+we all agree
+
+87
+00:03:03,360 --> 00:03:06,080
+these books are doing well because we
+
+88
+00:03:04,879 --> 00:03:08,000
+all feel
+
+89
+00:03:06,080 --> 00:03:10,319
+exhausted but the question is what
+
+90
+00:03:08,000 --> 00:03:12,400
+should we do about it and my
+
+91
+00:03:10,319 --> 00:03:15,120
+opinion here is that we haven't had a
+
+92
+00:03:12,400 --> 00:03:17,200
+lot of fully featured answers the
+
+93
+00:03:15,120 --> 00:03:18,800
+typical response that we will get to
+
+94
+00:03:17,200 --> 00:03:19,680
+what we should do about it is basically
+
+95
+00:03:18,800 --> 00:03:22,400
+just
+
+96
+00:03:19,680 --> 00:03:24,799
+do less and be okay about that
+
+97
+00:03:22,400 --> 00:03:26,959
+which is perfectly fine advice but is
+
+98
+00:03:24,799 --> 00:03:29,280
+not in itself i think a fully fledged
+
+99
+00:03:26,959 --> 00:03:30,640
+solution to this issue of burnout now we
+
+100
+00:03:29,280 --> 00:03:32,000
+get this advice from many different
+
+101
+00:03:30,640 --> 00:03:33,680
+angles some of those books i talked
+
+102
+00:03:32,000 --> 00:03:35,840
+about before come at this from an
+
+103
+00:03:33,680 --> 00:03:36,959
+economic materialist standpoint they say
+
+104
+00:03:35,840 --> 00:03:38,080
+well you're doing a lot of things
+
+105
+00:03:36,959 --> 00:03:39,440
+because essentially you're being
+
+106
+00:03:38,080 --> 00:03:41,760
+exploited by
+
+107
+00:03:39,440 --> 00:03:44,640
+the capitalist superstructure and so
+
+108
+00:03:41,760 --> 00:03:46,799
+it's an act of political resistance
+
+109
+00:03:44,640 --> 00:03:48,239
+to not do something do nothing as a as
+
+110
+00:03:46,799 --> 00:03:49,920
+an act of political resistance some of
+
+111
+00:03:48,239 --> 00:03:51,360
+these books are more cultural just we
+
+112
+00:03:49,920 --> 00:03:53,519
+have a cultural
+
+113
+00:03:51,360 --> 00:03:55,920
+a culture of overproduction
+
+114
+00:03:53,519 --> 00:03:58,159
+maybe it goes back to the protestant
+
+115
+00:03:55,920 --> 00:04:00,159
+work ethic or whatever
+
+116
+00:03:58,159 --> 00:04:01,439
+and we just need to defy that culture as
+
+117
+00:04:00,159 --> 00:04:03,040
+an arbitrary culture we should just do
+
+118
+00:04:01,439 --> 00:04:04,480
+less things
+
+119
+00:04:03,040 --> 00:04:05,840
+nothing wrong with that advice i just
+
+120
+00:04:04,480 --> 00:04:08,400
+don't think it's enough by itself to
+
+121
+00:04:05,840 --> 00:04:11,040
+actually cure what ails us
+
+122
+00:04:08,400 --> 00:04:12,319
+because we do like to do things
+
+123
+00:04:11,040 --> 00:04:15,599
+there's nothing that makes us more
+
+124
+00:04:12,319 --> 00:04:17,600
+consistently miserable as a species
+
+125
+00:04:15,599 --> 00:04:19,600
+than actually doing nothing for any
+
+126
+00:04:17,600 --> 00:04:20,959
+extended period of time it makes us very
+
+127
+00:04:19,600 --> 00:04:22,720
+uncomfortable it makes us feel
+
+128
+00:04:20,959 --> 00:04:25,360
+non-efficacious it makes us feel
+
+129
+00:04:22,720 --> 00:04:27,280
+rootless and bored and anxious we'd like
+
+130
+00:04:25,360 --> 00:04:29,520
+to do things the problem is not activity
+
+131
+00:04:27,280 --> 00:04:30,960
+the problem is too much activity so
+
+132
+00:04:29,520 --> 00:04:31,919
+we need a
+
+133
+00:04:30,960 --> 00:04:33,759
+more
+
+134
+00:04:31,919 --> 00:04:34,880
+sophisticated solution than simply
+
+135
+00:04:33,759 --> 00:04:36,720
+saying
+
+136
+00:04:34,880 --> 00:04:38,320
+it's okay to not do as many things just
+
+137
+00:04:36,720 --> 00:04:40,000
+do less
+
+138
+00:04:38,320 --> 00:04:41,520
+that maybe is a
+
+139
+00:04:40,000 --> 00:04:43,919
+step in the right direction but we need
+
+140
+00:04:41,520 --> 00:04:45,919
+to take many steps more this is what
+
+141
+00:04:43,919 --> 00:04:48,960
+brings me to my recent thinking on this
+
+142
+00:04:45,919 --> 00:04:51,120
+emerging concept of slow productivity
+
+143
+00:04:48,960 --> 00:04:52,639
+slow productivity is meant as a response
+
+144
+00:04:51,120 --> 00:04:55,120
+to this question of what should we do in
+
+145
+00:04:52,639 --> 00:04:57,759
+the face of being exhausted
+
+146
+00:04:55,120 --> 00:04:59,120
+by all that we have to do
+
+147
+00:04:57,759 --> 00:05:01,120
+so to look into this topic of slow
+
+148
+00:04:59,120 --> 00:05:03,520
+productivity i started by trying to
+
+149
+00:05:01,120 --> 00:05:06,800
+understand
+
+150
+00:05:03,520 --> 00:05:09,199
+what was productivity for our ancient
+
+151
+00:05:06,800 --> 00:05:11,759
+ancestors
+
+152
+00:05:09,199 --> 00:05:13,759
+in other words as human beings
+
+153
+00:05:11,759 --> 00:05:15,520
+what is natural
+
+154
+00:05:13,759 --> 00:05:17,120
+when it comes to activity
+
+155
+00:05:15,520 --> 00:05:18,400
+there's a basic question but we need an
+
+156
+00:05:17,120 --> 00:05:19,520
+answer to this question of what is
+
+157
+00:05:18,400 --> 00:05:21,199
+natural if we're going to try to get
+
+158
+00:05:19,520 --> 00:05:22,960
+back to something that's more
+
+159
+00:05:21,199 --> 00:05:24,800
+attuned to the human condition and so i
+
+160
+00:05:22,960 --> 00:05:27,919
+went back and did some work trying to
+
+161
+00:05:24,800 --> 00:05:30,320
+understand the rhythms of activity of
+
+162
+00:05:27,919 --> 00:05:31,600
+our paleolithic ancestors
+
+163
+00:05:30,320 --> 00:05:33,759
+we obviously don't have direct
+
+164
+00:05:31,600 --> 00:05:35,919
+observations about this but i ended up
+
+165
+00:05:33,759 --> 00:05:38,479
+talking to a quantitative anthropologist
+
+166
+00:05:35,919 --> 00:05:40,320
+from oxford university who is one of the
+
+167
+00:05:38,479 --> 00:05:41,680
+world's experts at studying extant
+
+168
+00:05:40,320 --> 00:05:43,520
+hunter-gatherer tribes in the
+
+169
+00:05:41,680 --> 00:05:45,919
+philippines and using robust methods to
+
+170
+00:05:43,520 --> 00:05:48,479
+try to try to measure
+
+171
+00:05:45,919 --> 00:05:49,840
+what their activity levels are like and
+
+172
+00:05:48,479 --> 00:05:51,919
+very carefully try to make some
+
+173
+00:05:49,840 --> 00:05:53,440
+extrapolations from this to other to our
+
+174
+00:05:51,919 --> 00:05:54,880
+hunter-gatherer past that's an
+
+175
+00:05:53,440 --> 00:05:56,800
+extrapolation you have to do carefully
+
+176
+00:05:54,880 --> 00:05:58,880
+but he's sensitive and careful about
+
+177
+00:05:56,800 --> 00:06:00,800
+that and here's basically what you see
+
+178
+00:05:58,880 --> 00:06:03,039
+our best guess
+
+179
+00:06:00,800 --> 00:06:07,280
+at what activity was like
+
+180
+00:06:03,039 --> 00:06:09,280
+for the bulk of our species existence is
+
+181
+00:06:07,280 --> 00:06:10,240
+you would be doing skilled and important
+
+182
+00:06:09,280 --> 00:06:12,400
+work
+
+183
+00:06:10,240 --> 00:06:14,880
+basically every day
+
+184
+00:06:12,400 --> 00:06:18,000
+mainly focused on food acquisition and
+
+185
+00:06:14,880 --> 00:06:20,960
+preparation as well as child rearing
+
+186
+00:06:18,000 --> 00:06:23,039
+but you would be uh you know these
+
+187
+00:06:20,960 --> 00:06:24,639
+extant tribes they studied if you were
+
+188
+00:06:23,039 --> 00:06:26,560
+gathering herbs
+
+189
+00:06:24,639 --> 00:06:28,319
+you had a huge expert understanding of
+
+190
+00:06:26,560 --> 00:06:29,840
+the various plants and their various
+
+191
+00:06:28,319 --> 00:06:31,280
+uses it's very expert work or if you're
+
+192
+00:06:29,840 --> 00:06:32,720
+hunting hunting was a very skilled
+
+193
+00:06:31,280 --> 00:06:34,400
+activity when you don't have very
+
+194
+00:06:32,720 --> 00:06:35,919
+sophisticated
+
+195
+00:06:34,400 --> 00:06:38,479
+weapons like rifles right so you're
+
+196
+00:06:35,919 --> 00:06:41,039
+doing skilled but important work
+
+197
+00:06:38,479 --> 00:06:42,800
+at a natural pace
+
+198
+00:06:41,039 --> 00:06:44,319
+this is definitely what they found in
+
+199
+00:06:42,800 --> 00:06:46,000
+their work on these tribes is there's
+
+200
+00:06:44,319 --> 00:06:48,639
+lots of breaks
+
+201
+00:06:46,000 --> 00:06:50,240
+you might be spending all day on a hunt
+
+202
+00:06:48,639 --> 00:06:51,199
+but there's going to be a two-hour part
+
+203
+00:06:50,240 --> 00:06:53,120
+in the middle of the day where you're
+
+204
+00:06:51,199 --> 00:06:55,199
+just resting and maybe you take there's
+
+205
+00:06:53,120 --> 00:06:57,280
+a nap over here there's a natural pace
+
+206
+00:06:55,199 --> 00:06:59,680
+with ups and downs of intensity and
+
+207
+00:06:57,280 --> 00:07:01,680
+never too many things at the same time
+
+208
+00:06:59,680 --> 00:07:03,199
+there's no notion of i have 18 things
+
+209
+00:07:01,680 --> 00:07:06,560
+i'm trying to get done
+
+210
+00:07:03,199 --> 00:07:07,840
+as a paleolithic hunter-gatherer and i'm
+
+211
+00:07:06,560 --> 00:07:09,840
+trying to go through this list it's like
+
+212
+00:07:07,840 --> 00:07:11,599
+we're doing this today and then that
+
+213
+00:07:09,840 --> 00:07:14,479
+right that's basically what we did
+
+214
+00:07:11,599 --> 00:07:17,840
+throughout most of our history
+
+215
+00:07:14,479 --> 00:07:19,360
+now compare that to where we are today
+
+216
+00:07:17,840 --> 00:07:21,039
+where we are today and let's focus
+
+217
+00:07:19,360 --> 00:07:22,240
+mainly on the world of work just to keep
+
+218
+00:07:21,039 --> 00:07:24,800
+this
+
+219
+00:07:22,240 --> 00:07:26,319
+more precise where we are today
+
+220
+00:07:24,800 --> 00:07:28,560
+is
+
+221
+00:07:26,319 --> 00:07:30,880
+maintaining lists of things that we need
+
+222
+00:07:28,560 --> 00:07:32,800
+to do obligations and commitment some of
+
+223
+00:07:30,880 --> 00:07:33,599
+them explicit some of them implicit that
+
+224
+00:07:32,800 --> 00:07:35,840
+are
+
+225
+00:07:33,599 --> 00:07:37,919
+massive
+
+226
+00:07:35,840 --> 00:07:39,599
+massive list of obligations and
+
+227
+00:07:37,919 --> 00:07:41,680
+commitments in the world of work these
+
+228
+00:07:39,599 --> 00:07:43,680
+just come flying at us through emails
+
+229
+00:07:41,680 --> 00:07:45,680
+they come flying at us through quick
+
+230
+00:07:43,680 --> 00:07:46,879
+requests during zoom meetings hey cal
+
+231
+00:07:45,680 --> 00:07:50,000
+can you take care of this or can you
+
+232
+00:07:46,879 --> 00:07:51,680
+jump on this flying at us in informal
+
+233
+00:07:50,000 --> 00:07:54,080
+conversations in the hallway where a
+
+234
+00:07:51,680 --> 00:07:55,759
+boss grabs you and says
+
+235
+00:07:54,080 --> 00:07:58,800
+look into this can you get this done for
+
+236
+00:07:55,759 --> 00:08:01,360
+me and we have these very large list of
+
+237
+00:07:58,800 --> 00:08:03,199
+things that are on our plate i call this
+
+238
+00:08:01,360 --> 00:08:04,639
+state chronic overload because we have
+
+239
+00:08:03,199 --> 00:08:06,160
+more things on our plate than we can
+
+240
+00:08:04,639 --> 00:08:07,599
+easily imagine how we're going to get
+
+241
+00:08:06,160 --> 00:08:10,000
+them done and this is a state that is
+
+242
+00:08:07,599 --> 00:08:11,919
+persistent we constantly have this
+
+243
+00:08:10,000 --> 00:08:13,280
+overloaded list of things that we have
+
+244
+00:08:11,919 --> 00:08:15,120
+to do
+
+245
+00:08:13,280 --> 00:08:16,319
+this causes three problems three
+
+246
+00:08:15,120 --> 00:08:18,960
+problems that we're not faced by our
+
+247
+00:08:16,319 --> 00:08:21,280
+paleolithic ancestors one is just the
+
+248
+00:08:18,960 --> 00:08:23,039
+simple short circuiting of the center of
+
+249
+00:08:21,280 --> 00:08:25,520
+our brain that is dedicated to making
+
+250
+00:08:23,039 --> 00:08:27,280
+long-term plans
+
+251
+00:08:25,520 --> 00:08:28,879
+goal completion
+
+252
+00:08:27,280 --> 00:08:30,960
+humans have a center in their brain that
+
+253
+00:08:28,879 --> 00:08:32,560
+does this very well even our close
+
+254
+00:08:30,960 --> 00:08:34,800
+primate relatives do not have anything
+
+255
+00:08:32,560 --> 00:08:36,719
+that's quite as powerful as our ability
+
+256
+00:08:34,800 --> 00:08:39,200
+to plan and go after goals this is
+
+257
+00:08:36,719 --> 00:08:41,039
+tapped into our motivational systems
+
+258
+00:08:39,200 --> 00:08:43,120
+we feel good when we make a plan we feel
+
+259
+00:08:41,039 --> 00:08:45,440
+even better when we execute the plan we
+
+260
+00:08:43,120 --> 00:08:47,680
+feel bad if we don't
+
+261
+00:08:45,440 --> 00:08:50,640
+this system gets completely overloaded
+
+262
+00:08:47,680 --> 00:08:53,920
+when you have 700 unread messages in
+
+263
+00:08:50,640 --> 00:08:55,519
+your inbox and 75 different projects
+
+264
+00:08:53,920 --> 00:08:57,519
+tasks and ongoing commitments that
+
+265
+00:08:55,519 --> 00:08:59,440
+you're trying to juggle it is too many
+
+266
+00:08:57,519 --> 00:09:01,760
+things for that part of your brain to
+
+267
+00:08:59,440 --> 00:09:03,440
+imagine how it's going to accomplish and
+
+268
+00:09:01,760 --> 00:09:04,959
+it short circuits that planning that
+
+269
+00:09:03,440 --> 00:09:07,760
+planning center of our brain that makes
+
+270
+00:09:04,959 --> 00:09:09,440
+us anxious that makes us miserable
+
+271
+00:09:07,760 --> 00:09:11,519
+again our paleolithic ancestors never
+
+272
+00:09:09,440 --> 00:09:13,680
+had 700 unread emails each of which
+
+273
+00:09:11,519 --> 00:09:15,200
+representing a commitment
+
+274
+00:09:13,680 --> 00:09:16,480
+that we can't wrap our mind around how
+
+275
+00:09:15,200 --> 00:09:18,800
+we ever gonna satisfy all these
+
+276
+00:09:16,480 --> 00:09:20,080
+commitments two
+
+277
+00:09:18,800 --> 00:09:21,200
+when you have way more things on your
+
+278
+00:09:20,080 --> 00:09:23,279
+plate than you can easily imagine
+
+279
+00:09:21,200 --> 00:09:24,720
+handling you suffer from what i think is
+
+280
+00:09:23,279 --> 00:09:27,200
+one of the more
+
+281
+00:09:24,720 --> 00:09:28,240
+insidious tortures of modern office work
+
+282
+00:09:27,200 --> 00:09:30,720
+which is the
+
+283
+00:09:28,240 --> 00:09:32,399
+overhead spiral
+
+284
+00:09:30,720 --> 00:09:33,760
+so if you give me something to do here's
+
+285
+00:09:32,399 --> 00:09:35,920
+a project
+
+286
+00:09:33,760 --> 00:09:37,360
+i want you to work with these two people
+
+287
+00:09:35,920 --> 00:09:40,800
+and get it done
+
+288
+00:09:37,360 --> 00:09:43,200
+there is a fixed amount of overhead
+
+289
+00:09:40,800 --> 00:09:44,560
+that comes with this project because we
+
+290
+00:09:43,200 --> 00:09:46,880
+have to kind of coordinate so there's
+
+291
+00:09:44,560 --> 00:09:48,640
+going to be i don't know some notion of
+
+292
+00:09:46,880 --> 00:09:50,320
+number of meetings we have to do to talk
+
+293
+00:09:48,640 --> 00:09:52,240
+things through and make a plan there'll
+
+294
+00:09:50,320 --> 00:09:54,000
+be some non-trivial number of emails we
+
+295
+00:09:52,240 --> 00:09:55,360
+have to send back and forth to get
+
+296
+00:09:54,000 --> 00:09:57,040
+questions answered or to move the
+
+297
+00:09:55,360 --> 00:09:58,959
+project forward
+
+298
+00:09:57,040 --> 00:10:00,399
+in isolation that's all fine if i'm
+
+299
+00:09:58,959 --> 00:10:01,680
+working on something yeah let's meet
+
+300
+00:10:00,399 --> 00:10:03,279
+about it once a week and send some
+
+301
+00:10:01,680 --> 00:10:05,200
+emails in between that's fine that's
+
+302
+00:10:03,279 --> 00:10:06,560
+just the overhead cost of working with
+
+303
+00:10:05,200 --> 00:10:09,440
+people to accomplish something no
+
+304
+00:10:06,560 --> 00:10:11,839
+problem the issue is what if we have 25
+
+305
+00:10:09,440 --> 00:10:14,000
+of these ongoing at the same time each
+
+306
+00:10:11,839 --> 00:10:15,760
+of them has the same fixed amount of
+
+307
+00:10:14,000 --> 00:10:17,440
+overhead each one needs that weekly
+
+308
+00:10:15,760 --> 00:10:19,839
+meeting each one needs a couple dozen
+
+309
+00:10:17,440 --> 00:10:22,640
+emails sent each week and it adds and
+
+310
+00:10:19,839 --> 00:10:24,959
+adds and ads until your schedule becomes
+
+311
+00:10:22,640 --> 00:10:27,440
+overloaded
+
+312
+00:10:24,959 --> 00:10:29,200
+with this fixed overhead
+
+313
+00:10:27,440 --> 00:10:30,240
+and now you are spending almost all of
+
+314
+00:10:29,200 --> 00:10:32,640
+your time
+
+315
+00:10:30,240 --> 00:10:35,440
+talking about the work you need to do
+
+316
+00:10:32,640 --> 00:10:37,279
+with no time left to actually execute
+
+317
+00:10:35,440 --> 00:10:39,120
+the work
+
+318
+00:10:37,279 --> 00:10:40,800
+again i think this is the knowledge
+
+319
+00:10:39,120 --> 00:10:44,800
+worker equivalent of chinese water
+
+320
+00:10:40,800 --> 00:10:47,920
+torture it is maddening it is deranging
+
+321
+00:10:44,800 --> 00:10:49,519
+we saw this really clearly amplified
+
+322
+00:10:47,920 --> 00:10:50,959
+during the first half year of the
+
+323
+00:10:49,519 --> 00:10:53,920
+chronovirus pandemic where office
+
+324
+00:10:50,959 --> 00:10:55,839
+workers had to suddenly work remote
+
+325
+00:10:53,920 --> 00:10:57,519
+shifting operations remote meant that
+
+326
+00:10:55,839 --> 00:10:58,720
+there was a lot of new work that got
+
+327
+00:10:57,519 --> 00:11:00,880
+generated right because we have to
+
+328
+00:10:58,720 --> 00:11:03,120
+figure out how do we do our work if
+
+329
+00:11:00,880 --> 00:11:05,519
+we're remote so suddenly everyone's
+
+330
+00:11:03,120 --> 00:11:06,959
+obligation list got bigger each of these
+
+331
+00:11:05,519 --> 00:11:08,959
+things brought with it a meeting and
+
+332
+00:11:06,959 --> 00:11:10,880
+some emails what happened
+
+333
+00:11:08,959 --> 00:11:13,279
+i heard report after report from
+
+334
+00:11:10,880 --> 00:11:17,519
+knowledge workers saying i am spending
+
+335
+00:11:13,279 --> 00:11:19,440
+eight straight hours per day in zoom
+
+336
+00:11:17,519 --> 00:11:22,560
+i would get complaints from people that
+
+337
+00:11:19,440 --> 00:11:24,399
+said my biggest issue is i don't know
+
+338
+00:11:22,560 --> 00:11:27,279
+when to use the bathroom during the day
+
+339
+00:11:24,399 --> 00:11:30,640
+i'm on zoom that often in zoom doing
+
+340
+00:11:27,279 --> 00:11:33,440
+email while in zoomed the entire day
+
+341
+00:11:30,640 --> 00:11:34,720
+this is a parody of work life where all
+
+342
+00:11:33,440 --> 00:11:36,240
+you're doing is talking about work not
+
+343
+00:11:34,720 --> 00:11:38,240
+just i have too many meetings all you
+
+344
+00:11:36,240 --> 00:11:39,360
+were doing was meetings that's overhead
+
+345
+00:11:38,240 --> 00:11:41,360
+spiral
+
+346
+00:11:39,360 --> 00:11:42,640
+personified right there so again you
+
+347
+00:11:41,360 --> 00:11:44,399
+have too many things on your plate that
+
+348
+00:11:42,640 --> 00:11:46,000
+you've committed to the overhead itself
+
+349
+00:11:44,399 --> 00:11:47,839
+takes over your whole schedule and
+
+350
+00:11:46,000 --> 00:11:50,720
+finally the last issue with chronic
+
+351
+00:11:47,839 --> 00:11:52,800
+overload is we it's relentless in its
+
+352
+00:11:50,720 --> 00:11:54,959
+pace there is never any time where you
+
+353
+00:11:52,800 --> 00:11:56,800
+get to relax there's never any time you
+
+354
+00:11:54,959 --> 00:11:58,639
+get to downshift
+
+355
+00:11:56,800 --> 00:12:00,880
+remember our paleolithic ancestors if
+
+356
+00:11:58,639 --> 00:12:02,240
+they're doing an all-day hunt
+
+357
+00:12:00,880 --> 00:12:04,320
+might have hours in there where they're
+
+358
+00:12:02,240 --> 00:12:05,360
+just sitting around yeah it's the heat
+
+359
+00:12:04,320 --> 00:12:07,120
+of the day
+
+360
+00:12:05,360 --> 00:12:08,959
+let's sit in the shade of a tree and
+
+361
+00:12:07,120 --> 00:12:10,800
+just like nap and chat
+
+362
+00:12:08,959 --> 00:12:12,160
+or we hunted the last two days it's kind
+
+363
+00:12:10,800 --> 00:12:14,639
+of rainy today not great conditions
+
+364
+00:12:12,160 --> 00:12:17,440
+we're not going to hunt today at all
+
+365
+00:12:14,639 --> 00:12:19,040
+in a system of modern work with chronic
+
+366
+00:12:17,440 --> 00:12:20,079
+overload where you always have way more
+
+367
+00:12:19,040 --> 00:12:22,839
+on your plate than you ever can get
+
+368
+00:12:20,079 --> 00:12:25,600
+around the handling there is a constant
+
+369
+00:12:22,839 --> 00:12:26,800
+pressure on execution because there's
+
+370
+00:12:25,600 --> 00:12:28,639
+always things that need to get it done
+
+371
+00:12:26,800 --> 00:12:30,000
+and you're always behind
+
+372
+00:12:28,639 --> 00:12:32,320
+so every day
+
+373
+00:12:30,000 --> 00:12:33,760
+you fill it relentless work every minute
+
+374
+00:12:32,320 --> 00:12:35,040
+you have available
+
+375
+00:12:33,760 --> 00:12:36,320
+probably have to do some evenings
+
+376
+00:12:35,040 --> 00:12:39,120
+probably have to do some weekends as
+
+377
+00:12:36,320 --> 00:12:41,440
+well to get around the overhead spirals
+
+378
+00:12:39,120 --> 00:12:43,760
+we're not wired for this relentless pace
+
+379
+00:12:41,440 --> 00:12:45,519
+of work where you never have any relief
+
+380
+00:12:43,760 --> 00:12:48,240
+and it's pegged at
+
+381
+00:12:45,519 --> 00:12:50,000
+this 10 on the scale of 1 to 10 of how
+
+382
+00:12:48,240 --> 00:12:52,399
+much how hard you're working day after
+
+383
+00:12:50,000 --> 00:12:54,560
+day after day after day
+
+384
+00:12:52,399 --> 00:12:56,760
+this i think is the more
+
+385
+00:12:54,560 --> 00:12:58,880
+detailed
+
+386
+00:12:56,760 --> 00:13:00,480
+socio-physiological explanation for what
+
+387
+00:12:58,880 --> 00:13:02,320
+all of those anti-productivity books
+
+388
+00:13:00,480 --> 00:13:04,639
+were commenting on this is why we're so
+
+389
+00:13:02,320 --> 00:13:06,320
+miserable chronic overload creates those
+
+390
+00:13:04,639 --> 00:13:09,040
+three problems those three problems
+
+391
+00:13:06,320 --> 00:13:10,639
+alienate us from the the rhythms of work
+
+392
+00:13:09,040 --> 00:13:12,800
+for which we're wired as people and that
+
+393
+00:13:10,639 --> 00:13:15,120
+is why we're not happy
+
+394
+00:13:12,800 --> 00:13:17,519
+that is then what we need to solve
+
+395
+00:13:15,120 --> 00:13:19,200
+how do we get rid of chronic overload
+
+396
+00:13:17,519 --> 00:13:22,320
+how do we get rid of those
+
+397
+00:13:19,200 --> 00:13:23,680
+issues that come from chronic overload
+
+398
+00:13:22,320 --> 00:13:25,360
+just saying i'm going to do less isn't
+
+399
+00:13:23,680 --> 00:13:26,959
+going to cut it
+
+400
+00:13:25,360 --> 00:13:28,880
+hey boss
+
+401
+00:13:26,959 --> 00:13:32,639
+i've decided i don't want to be a part
+
+402
+00:13:28,880 --> 00:13:34,639
+of the exploitative capitalist engine
+
+403
+00:13:32,639 --> 00:13:36,880
+so i'm not going to work today
+
+404
+00:13:34,639 --> 00:13:39,440
+good luck not going to solve it we need
+
+405
+00:13:36,880 --> 00:13:41,040
+we need a more detailed sophisticated uh
+
+406
+00:13:39,440 --> 00:13:43,040
+solution here it's not going to work to
+
+407
+00:13:41,040 --> 00:13:44,880
+say hey client
+
+408
+00:13:43,040 --> 00:13:48,399
+i do not want to be a
+
+409
+00:13:44,880 --> 00:13:50,000
+stooge in a a protestant work ethic
+
+410
+00:13:48,399 --> 00:13:53,040
+culture established during the
+
+411
+00:13:50,000 --> 00:13:55,760
+pre-colonial period uh in the early days
+
+412
+00:13:53,040 --> 00:13:57,760
+of migration to the united states so um
+
+413
+00:13:55,760 --> 00:13:59,920
+i'm not going to answer your email
+
+414
+00:13:57,760 --> 00:14:01,519
+that's not a solution we need something
+
+415
+00:13:59,920 --> 00:14:03,680
+more sophisticated all right slow
+
+416
+00:14:01,519 --> 00:14:06,320
+productivity is that answer
+
+417
+00:14:03,680 --> 00:14:08,079
+slow productivity is that answer
+
+418
+00:14:06,320 --> 00:14:10,000
+let me give you three quick ideas for
+
+419
+00:14:08,079 --> 00:14:11,600
+what slow productivity might mean three
+
+420
+00:14:10,000 --> 00:14:13,120
+elements to it this is going to evolve
+
+421
+00:14:11,600 --> 00:14:14,800
+but let's try to get something pinned
+
+422
+00:14:13,120 --> 00:14:16,560
+down here so to me there's three big
+
+423
+00:14:14,800 --> 00:14:19,120
+things i care about with a slow
+
+424
+00:14:16,560 --> 00:14:21,440
+productivity philosophy
+
+425
+00:14:19,120 --> 00:14:25,040
+doing fewer things
+
+426
+00:14:21,440 --> 00:14:26,720
+doing those things at a natural pace
+
+427
+00:14:25,040 --> 00:14:29,040
+obsessing over the quality of the things
+
+428
+00:14:26,720 --> 00:14:29,040
+you do
+
+429
+00:14:29,440 --> 00:14:33,440
+that definition of productivity a
+
+430
+00:14:31,279 --> 00:14:36,079
+productivity that prioritizes those
+
+431
+00:14:33,440 --> 00:14:37,600
+three things i think can get us back
+
+432
+00:14:36,079 --> 00:14:39,839
+towards
+
+433
+00:14:37,600 --> 00:14:41,839
+the rhythms of work for which we are
+
+434
+00:14:39,839 --> 00:14:43,839
+wired while also
+
+435
+00:14:41,839 --> 00:14:46,720
+fulfilling us doing interesting work
+
+436
+00:14:43,839 --> 00:14:47,920
+letting our companies grow
+
+437
+00:14:46,720 --> 00:14:50,240
+helping our
+
+438
+00:14:47,920 --> 00:14:51,600
+team succeed getting promotion still
+
+439
+00:14:50,240 --> 00:14:52,639
+getting the autonomy that comes from
+
+440
+00:14:51,600 --> 00:14:55,040
+getting good at things that are rare and
+
+441
+00:14:52,639 --> 00:14:56,160
+valuable that is compatible with that
+
+442
+00:14:55,040 --> 00:14:58,320
+so let me just touch on those three
+
+443
+00:14:56,160 --> 00:15:00,000
+things real quickly
+
+444
+00:14:58,320 --> 00:15:02,079
+do fewer things
+
+445
+00:15:00,000 --> 00:15:04,240
+i think your workload and ideal world
+
+446
+00:15:02,079 --> 00:15:05,440
+would be below that level of chronic
+
+447
+00:15:04,240 --> 00:15:07,040
+overload
+
+448
+00:15:05,440 --> 00:15:08,320
+you have few enough things that you are
+
+449
+00:15:07,040 --> 00:15:09,839
+committed to doing on your plate that
+
+450
+00:15:08,320 --> 00:15:11,120
+you are not suffering from the short
+
+451
+00:15:09,839 --> 00:15:12,480
+circuiting of your planning circuit
+
+452
+00:15:11,120 --> 00:15:14,800
+you're not suffering from overhead
+
+453
+00:15:12,480 --> 00:15:15,760
+spirals and you do not feel like you
+
+454
+00:15:14,800 --> 00:15:16,480
+have no
+
+455
+00:15:15,760 --> 00:15:18,000
+no
+
+456
+00:15:16,480 --> 00:15:19,680
+option but to have a relentless pace for
+
+457
+00:15:18,000 --> 00:15:21,680
+your feeling every minute of your day we
+
+458
+00:15:19,680 --> 00:15:23,120
+need to do many fewer things
+
+459
+00:15:21,680 --> 00:15:25,440
+and if you work for yourself if you're a
+
+460
+00:15:23,120 --> 00:15:27,440
+freelancer run your own company
+
+461
+00:15:25,440 --> 00:15:29,759
+aggressively titrate how many things you
+
+462
+00:15:27,440 --> 00:15:31,440
+take on at the same time
+
+463
+00:15:29,759 --> 00:15:33,120
+you are not a computer processor where
+
+464
+00:15:31,440 --> 00:15:34,560
+you want your
+
+465
+00:15:33,120 --> 00:15:36,320
+pipeline of
+
+466
+00:15:34,560 --> 00:15:38,000
+instructions to execute to be full so
+
+467
+00:15:36,320 --> 00:15:39,519
+you never miss a particular tick you're
+
+468
+00:15:38,000 --> 00:15:41,120
+a human
+
+469
+00:15:39,519 --> 00:15:43,040
+you're not wired to do that we need to
+
+470
+00:15:41,120 --> 00:15:44,720
+do many fewer things what if you work
+
+471
+00:15:43,040 --> 00:15:46,320
+for someone else
+
+472
+00:15:44,720 --> 00:15:48,720
+well i think we need to completely
+
+473
+00:15:46,320 --> 00:15:51,839
+rethink how work is assigned in the
+
+474
+00:15:48,720 --> 00:15:53,279
+workplace this should be transparent
+
+475
+00:15:51,839 --> 00:15:54,880
+how much work is this person doing
+
+476
+00:15:53,279 --> 00:15:57,040
+what's on their plate
+
+477
+00:15:54,880 --> 00:15:59,199
+so we can all see it and then we can
+
+478
+00:15:57,040 --> 00:16:00,880
+have very clear understandings of what
+
+479
+00:15:59,199 --> 00:16:03,440
+is reasonable
+
+480
+00:16:00,880 --> 00:16:05,680
+and if i see you know jesse has
+
+481
+00:16:03,440 --> 00:16:07,600
+a fair number of things on his plate i
+
+482
+00:16:05,680 --> 00:16:09,120
+can't put something else on it it's on
+
+483
+00:16:07,600 --> 00:16:10,480
+me to figure out something pops up it
+
+484
+00:16:09,120 --> 00:16:12,560
+needs to get done at some point i can't
+
+485
+00:16:10,480 --> 00:16:14,160
+just say jesse handle this i have to
+
+486
+00:16:12,560 --> 00:16:16,000
+figure out
+
+487
+00:16:14,160 --> 00:16:18,000
+where does this go
+
+488
+00:16:16,000 --> 00:16:19,839
+until someone has room for it it can't
+
+489
+00:16:18,000 --> 00:16:23,600
+just go on their plate the answer here
+
+490
+00:16:19,839 --> 00:16:25,040
+is probably going to be external systems
+
+491
+00:16:23,600 --> 00:16:26,720
+things that need to get done go into
+
+492
+00:16:25,040 --> 00:16:28,000
+external systems where they bring with
+
+493
+00:16:26,720 --> 00:16:29,759
+them the information they need to be
+
+494
+00:16:28,000 --> 00:16:32,320
+accomplished and have clear statuses and
+
+495
+00:16:29,759 --> 00:16:34,639
+priorities and then individuals pull
+
+496
+00:16:32,320 --> 00:16:36,639
+pull work out of the system as new slots
+
+497
+00:16:34,639 --> 00:16:38,320
+open
+
+498
+00:16:36,639 --> 00:16:39,920
+this might sound like it's a pain i
+
+499
+00:16:38,320 --> 00:16:42,320
+don't care if it's a pain
+
+500
+00:16:39,920 --> 00:16:44,000
+it's what we're wired to do keep my load
+
+501
+00:16:42,320 --> 00:16:45,519
+reasonable
+
+502
+00:16:44,000 --> 00:16:46,880
+and i'll pull in new stuff when i'm done
+
+503
+00:16:45,519 --> 00:16:48,079
+with what's on my plate don't just give
+
+504
+00:16:46,880 --> 00:16:49,120
+it all to me and say figure it out
+
+505
+00:16:48,079 --> 00:16:50,720
+you're going to short circuit my brain
+
+506
+00:16:49,120 --> 00:16:51,759
+you're going to make me miserable
+
+507
+00:16:50,720 --> 00:16:56,160
+all right second piece of slow
+
+508
+00:16:51,759 --> 00:16:58,959
+productivity work at a natural pace
+
+509
+00:16:56,160 --> 00:17:01,360
+we cannot just peg our efforts at a 10
+
+510
+00:16:58,959 --> 00:17:03,120
+for eight to nine hours a day
+
+511
+00:17:01,360 --> 00:17:04,559
+day after day week after week week after
+
+512
+00:17:03,120 --> 00:17:07,039
+week
+
+513
+00:17:04,559 --> 00:17:10,400
+this is not natural for humans we need
+
+514
+00:17:07,039 --> 00:17:12,640
+seasonality in our work first of all
+
+515
+00:17:10,400 --> 00:17:14,160
+seasonality meaning hard times balanced
+
+516
+00:17:12,640 --> 00:17:15,120
+by easier times and i think we should
+
+517
+00:17:14,160 --> 00:17:16,839
+have this
+
+518
+00:17:15,120 --> 00:17:19,679
+at all
+
+519
+00:17:16,839 --> 00:17:21,120
+scales so this week some days are harder
+
+520
+00:17:19,679 --> 00:17:23,199
+than others
+
+521
+00:17:21,120 --> 00:17:24,640
+i'm going to pull back on friday and
+
+522
+00:17:23,199 --> 00:17:27,679
+come into the weekend maybe a little bit
+
+523
+00:17:24,640 --> 00:17:28,880
+more relaxed but monday i'm pegging it
+
+524
+00:17:27,679 --> 00:17:30,880
+we should have
+
+525
+00:17:28,880 --> 00:17:33,360
+certain months
+
+526
+00:17:30,880 --> 00:17:34,320
+perhaps that are more intense than
+
+527
+00:17:33,360 --> 00:17:35,840
+others
+
+528
+00:17:34,320 --> 00:17:37,200
+this is an intense month we're kind of
+
+529
+00:17:35,840 --> 00:17:39,440
+getting after it but you know what in
+
+530
+00:17:37,200 --> 00:17:40,799
+june things really get quiet around here
+
+531
+00:17:39,440 --> 00:17:42,960
+and i'm pulling back and i'm going to
+
+532
+00:17:40,799 --> 00:17:44,640
+have very light days right so uh
+
+533
+00:17:42,960 --> 00:17:47,760
+seasonality at different levels maybe
+
+534
+00:17:44,640 --> 00:17:49,520
+even seasons like professors do
+
+535
+00:17:47,760 --> 00:17:50,960
+winter i'm getting after it summer i'm
+
+536
+00:17:49,520 --> 00:17:53,200
+pulled back far
+
+537
+00:17:50,960 --> 00:17:54,400
+rest recovery up down up down at all
+
+538
+00:17:53,200 --> 00:17:55,919
+scales
+
+539
+00:17:54,400 --> 00:17:57,600
+i think we absolutely need this the
+
+540
+00:17:55,919 --> 00:18:00,000
+other thing we have to do to get a more
+
+541
+00:17:57,600 --> 00:18:01,520
+natural pace to our work is adjust the
+
+542
+00:18:00,000 --> 00:18:03,360
+time scale at which we care about
+
+543
+00:18:01,520 --> 00:18:04,880
+accomplishment
+
+544
+00:18:03,360 --> 00:18:08,640
+instead of caring about how much do i
+
+545
+00:18:04,880 --> 00:18:10,559
+get done on the scale of days and weeks
+
+546
+00:18:08,640 --> 00:18:13,039
+you say i worry about what i get done on
+
+547
+00:18:10,559 --> 00:18:14,799
+the scale of months and years
+
+548
+00:18:13,039 --> 00:18:15,919
+completely changes your relationship to
+
+549
+00:18:14,799 --> 00:18:17,840
+the current moment when you want to
+
+550
+00:18:15,919 --> 00:18:20,960
+produce a good number of very high
+
+551
+00:18:17,840 --> 00:18:22,480
+quality things over the next three years
+
+552
+00:18:20,960 --> 00:18:24,320
+it really changes how you feel about
+
+553
+00:18:22,480 --> 00:18:25,840
+tuesday
+
+554
+00:18:24,320 --> 00:18:27,520
+now it's not so important that every
+
+555
+00:18:25,840 --> 00:18:28,799
+minute of tuesday you're getting after
+
+556
+00:18:27,520 --> 00:18:30,160
+it in fact you might say i need to take
+
+557
+00:18:28,799 --> 00:18:32,320
+a couple weeks off here so that i can
+
+558
+00:18:30,160 --> 00:18:33,919
+really have a high quality push for the
+
+559
+00:18:32,320 --> 00:18:35,520
+weeks that follow it completely changes
+
+560
+00:18:33,919 --> 00:18:37,679
+your relationship to work when you say i
+
+561
+00:18:35,520 --> 00:18:39,360
+don't care about how many things i check
+
+562
+00:18:37,679 --> 00:18:41,679
+off a list this week what i care about
+
+563
+00:18:39,360 --> 00:18:43,360
+is what is on my cv that i produce over
+
+564
+00:18:41,679 --> 00:18:44,880
+the last five years
+
+565
+00:18:43,360 --> 00:18:47,120
+that's much more compatible with
+
+566
+00:18:44,880 --> 00:18:48,559
+seasonality ups and downs the final
+
+567
+00:18:47,120 --> 00:18:50,080
+point here the final part of slow
+
+568
+00:18:48,559 --> 00:18:51,760
+productivity i mentioned was obsessed
+
+569
+00:18:50,080 --> 00:18:53,840
+about quality
+
+570
+00:18:51,760 --> 00:18:55,360
+if you're going to do less
+
+571
+00:18:53,840 --> 00:18:57,760
+you need to pair that with doing what
+
+572
+00:18:55,360 --> 00:18:59,280
+you do better
+
+573
+00:18:57,760 --> 00:19:00,880
+this will make the work more fulfilling
+
+574
+00:18:59,280 --> 00:19:02,400
+because you're building and applying
+
+575
+00:19:00,880 --> 00:19:04,640
+craft
+
+576
+00:19:02,400 --> 00:19:07,679
+remember our example of our paleolithic
+
+577
+00:19:04,640 --> 00:19:09,760
+ancestors skilled important activity
+
+578
+00:19:07,679 --> 00:19:12,320
+we get motivation for that
+
+579
+00:19:09,760 --> 00:19:15,280
+we don't get motivation for adjusting
+
+580
+00:19:12,320 --> 00:19:18,320
+the fonts in a powerpoint deck
+
+581
+00:19:15,280 --> 00:19:19,520
+for fundraising for some company idea we
+
+582
+00:19:18,320 --> 00:19:21,679
+probably shouldn't be doing in the first
+
+583
+00:19:19,520 --> 00:19:22,559
+place just because we're bored
+
+584
+00:19:21,679 --> 00:19:24,400
+but
+
+585
+00:19:22,559 --> 00:19:25,840
+crafting the computer program that's
+
+586
+00:19:24,400 --> 00:19:27,840
+going to run and do something really
+
+587
+00:19:25,840 --> 00:19:29,600
+cool and you can see it producing the
+
+588
+00:19:27,840 --> 00:19:30,640
+book the brilliant new marketing
+
+589
+00:19:29,600 --> 00:19:32,640
+campaign
+
+590
+00:19:30,640 --> 00:19:33,760
+so we want to focus on doing smaller
+
+591
+00:19:32,640 --> 00:19:35,120
+number things but doing those things
+
+592
+00:19:33,760 --> 00:19:37,520
+much better is going to feel more
+
+593
+00:19:35,120 --> 00:19:39,520
+fulfilling it is also what is going to
+
+594
+00:19:37,520 --> 00:19:42,960
+give you both the ability and the
+
+595
+00:19:39,520 --> 00:19:45,280
+courage to say no to other things
+
+596
+00:19:42,960 --> 00:19:47,840
+when your main metric becomes how do i
+
+597
+00:19:45,280 --> 00:19:49,280
+do what i do better
+
+598
+00:19:47,840 --> 00:19:50,640
+now it's easy to say i'm not going to do
+
+599
+00:19:49,280 --> 00:19:52,480
+this mid lean thing
+
+600
+00:19:50,640 --> 00:19:54,559
+i'm not going to do this distraction
+
+601
+00:19:52,480 --> 00:19:56,160
+i'm not going to jump on this call i'm
+
+602
+00:19:54,559 --> 00:19:58,160
+not going to learn this new plugin that
+
+603
+00:19:56,160 --> 00:19:59,919
+maybe will bring me some new email
+
+604
+00:19:58,160 --> 00:20:01,200
+subscribers for my news list because
+
+605
+00:19:59,919 --> 00:20:02,720
+that's not going to help me get better
+
+606
+00:20:01,200 --> 00:20:04,799
+at what i'm trying to do
+
+607
+00:20:02,720 --> 00:20:06,400
+it is much much easier to be minimalist
+
+608
+00:20:04,799 --> 00:20:08,320
+in your scheduling when you're focused
+
+609
+00:20:06,400 --> 00:20:10,400
+relentlessly on a small number of things
+
+610
+00:20:08,320 --> 00:20:12,400
+getting better and better at it it also
+
+611
+00:20:10,400 --> 00:20:14,000
+earns you the right to be more
+
+612
+00:20:12,400 --> 00:20:17,039
+autonomous
+
+613
+00:20:14,000 --> 00:20:19,440
+the better you get at what you do best
+
+614
+00:20:17,039 --> 00:20:22,000
+the more leeway you have to say i'm not
+
+615
+00:20:19,440 --> 00:20:23,120
+coming onto that committee i am not
+
+616
+00:20:22,000 --> 00:20:26,480
+going to
+
+617
+00:20:23,120 --> 00:20:27,840
+do this client contract it's barely
+
+618
+00:20:26,480 --> 00:20:28,480
+overlaps what i like to do it's going to
+
+619
+00:20:27,840 --> 00:20:30,640
+be
+
+620
+00:20:28,480 --> 00:20:32,799
+incredibly time consuming
+
+621
+00:20:30,640 --> 00:20:35,360
+i'm not going to have to do 25 social
+
+622
+00:20:32,799 --> 00:20:37,600
+media posts a day in some quixotic quest
+
+623
+00:20:35,360 --> 00:20:40,480
+to build up an influencer audience it
+
+624
+00:20:37,600 --> 00:20:42,159
+gives you the autonomy you need
+
+625
+00:20:40,480 --> 00:20:44,720
+to take control over what you spend your
+
+626
+00:20:42,159 --> 00:20:46,880
+time on and what you don't
+
+627
+00:20:44,720 --> 00:20:49,360
+so that is my answer that is my answer
+
+628
+00:20:46,880 --> 00:20:52,559
+to the anti-productivity movement yes we
+
+629
+00:20:49,360 --> 00:20:54,480
+are overloaded it's a problem why
+
+630
+00:20:52,559 --> 00:20:55,919
+because of chronic overload causes all
+
+631
+00:20:54,480 --> 00:20:58,480
+these issues that alienates us from our
+
+632
+00:20:55,919 --> 00:21:01,600
+human wiring what's the solution
+
+633
+00:20:58,480 --> 00:21:04,559
+not to discard productivity
+
+634
+00:21:01,600 --> 00:21:06,400
+and say do less and let's celebrate that
+
+635
+00:21:04,559 --> 00:21:09,840
+but to get more specific and say let's
+
+636
+00:21:06,400 --> 00:21:12,240
+redefine productivity
+
+637
+00:21:09,840 --> 00:21:13,760
+we'll call it slow productivity
+
+638
+00:21:12,240 --> 00:21:15,360
+and we're going to build this very
+
+639
+00:21:13,760 --> 00:21:18,640
+intentionally from the ground up to get
+
+640
+00:21:15,360 --> 00:21:20,720
+our work lives back aligned with our
+
+641
+00:21:18,640 --> 00:21:22,559
+ancient wiring
+
+642
+00:21:20,720 --> 00:21:24,720
+do fewer things
+
+643
+00:21:22,559 --> 00:21:26,880
+do this work at a natural pace
+
+644
+00:21:24,720 --> 00:21:29,039
+obsess over quality
+
+645
+00:21:26,880 --> 00:21:30,640
+that i believe is the proper response to
+
+646
+00:21:29,039 --> 00:21:33,200
+our current
+
+647
+00:21:30,640 --> 00:21:34,799
+rightly pointed out as problematic state
+
+648
+00:21:33,200 --> 00:21:37,280
+of overload
+
+649
+00:21:34,799 --> 00:21:39,600
+that is how we take back control of
+
+650
+00:21:37,280 --> 00:21:41,200
+activity in our life and keep it
+
+651
+00:21:39,600 --> 00:21:43,440
+fulfilling keep it meaningful keep
+
+652
+00:21:41,200 --> 00:21:45,600
+options open but also
+
+653
+00:21:43,440 --> 00:21:49,280
+get away from all of the issues we're
+
+654
+00:21:45,600 --> 00:21:51,760
+currently facing in our world of chronic
+
+655
+00:21:49,280 --> 00:21:51,760
+overload
+
+656
+00:21:52,400 --> 00:21:55,600
+all right so that's what i have on slow
+
+657
+00:21:54,080 --> 00:21:58,240
+productivity that's a new thought guys
+
+658
+00:21:55,600 --> 00:21:59,039
+so i'm sure it's going to evolve
+
+659
+00:21:58,240 --> 00:22:00,240
+uh
+
+660
+00:21:59,039 --> 00:22:02,799
+jesse you've heard me talk about this a
+
+661
+00:22:00,240 --> 00:22:04,240
+few times now did you just you've heard
+
+662
+00:22:02,799 --> 00:22:06,240
+i just listened to you talk about on the
+
+663
+00:22:04,240 --> 00:22:08,720
+ferris interview yesterday
+
+664
+00:22:06,240 --> 00:22:10,400
+that's right yeah so the day before
+
+665
+00:22:08,720 --> 00:22:12,240
+the day before this came out or a couple
+
+666
+00:22:10,400 --> 00:22:14,159
+days before my interview with the tim
+
+667
+00:22:12,240 --> 00:22:16,159
+ferriss came out and slow productivity
+
+668
+00:22:14,159 --> 00:22:17,360
+was one of the topics that we got into
+
+669
+00:22:16,159 --> 00:22:20,720
+i've also written about slow
+
+670
+00:22:17,360 --> 00:22:22,720
+productivity in for the new yorker so my
+
+671
+00:22:20,720 --> 00:22:24,159
+my last of my office based columns for
+
+672
+00:22:22,720 --> 00:22:26,640
+them which came out in early january was
+
+673
+00:22:24,159 --> 00:22:28,880
+on slow productivity uh and i may or may
+
+674
+00:22:26,640 --> 00:22:30,080
+not be working on a book proposal
+
+675
+00:22:28,880 --> 00:22:31,520
+on the topic so you might be wondering
+
+676
+00:22:30,080 --> 00:22:32,960
+why i'm talking about it
+
+677
+00:22:31,520 --> 00:22:35,039
+uh
+
+678
+00:22:32,960 --> 00:22:37,440
+i mean ironically for a book on slow
+
+679
+00:22:35,039 --> 00:22:39,280
+productivity it can't come out fast
+
+680
+00:22:37,440 --> 00:22:42,799
+i think that's the problem i was like
+
+681
+00:22:39,280 --> 00:22:45,039
+guys i stayed up every night for two
+
+682
+00:22:42,799 --> 00:22:47,120
+months and got this book done by just
+
+683
+00:22:45,039 --> 00:22:50,240
+relentlessly working as fast as possible
+
+684
+00:22:47,120 --> 00:22:50,240
+i think that's not gonna work
+
+685
+00:22:50,960 --> 00:22:55,360
+yeah you talked about this in the past
+
+686
+00:22:52,960 --> 00:22:56,400
+too in previous podcast episodes where
+
+687
+00:22:55,360 --> 00:22:57,360
+you said you were going to kind of walk
+
+688
+00:22:56,400 --> 00:22:59,039
+us through
+
+689
+00:22:57,360 --> 00:23:00,640
+the process of writing the book and
+
+690
+00:22:59,039 --> 00:23:01,760
+stuff so i'm looking forward to that
+
+691
+00:23:00,640 --> 00:23:03,760
+it's actually
+
+692
+00:23:01,760 --> 00:23:05,919
+already started yeah so maybe there's
+
+693
+00:23:03,760 --> 00:23:08,640
+some breaking news here so in in past
+
+694
+00:23:05,919 --> 00:23:11,039
+podcast episodes we were talking about
+
+695
+00:23:08,640 --> 00:23:12,640
+a book i'm working on a proposal on for
+
+696
+00:23:11,039 --> 00:23:14,640
+the deep life
+
+697
+00:23:12,640 --> 00:23:16,960
+this would be a second book
+
+698
+00:23:14,640 --> 00:23:18,880
+so i might be i'm working on potentially
+
+699
+00:23:16,960 --> 00:23:20,640
+the deep life and slow productivity in
+
+700
+00:23:18,880 --> 00:23:21,840
+some order
+
+701
+00:23:20,640 --> 00:23:23,919
+might be the next two books all right
+
+702
+00:23:21,840 --> 00:23:25,840
+none of that is inked you know none of
+
+703
+00:23:23,919 --> 00:23:28,320
+that's actually written down or signed
+
+704
+00:23:25,840 --> 00:23:29,360
+or none of it's official uh but that's
+
+705
+00:23:28,320 --> 00:23:30,559
+that's what i'm currently thinking is
+
+706
+00:23:29,360 --> 00:23:32,400
+those might be the next two books i
+
+707
+00:23:30,559 --> 00:23:33,600
+write and that's what you did before the
+
+708
+00:23:32,400 --> 00:23:36,240
+last two books right you worked on them
+
+709
+00:23:33,600 --> 00:23:37,679
+simultaneously yeah i like doing that um
+
+710
+00:23:36,240 --> 00:23:39,600
+because i want to just work i want to
+
+711
+00:23:37,679 --> 00:23:41,679
+think deeply and write
+
+712
+00:23:39,600 --> 00:23:43,360
+and so i sold
+
+713
+00:23:41,679 --> 00:23:45,120
+digital minimalism in a world without
+
+714
+00:23:43,360 --> 00:23:46,640
+email i sold those at the same time and
+
+715
+00:23:45,120 --> 00:23:48,400
+then that allowed me to just not worry
+
+716
+00:23:46,640 --> 00:23:50,400
+about selling books for four or five
+
+717
+00:23:48,400 --> 00:23:52,480
+years i could just write when i was done
+
+718
+00:23:50,400 --> 00:23:54,320
+with one book i knew what i was working
+
+719
+00:23:52,480 --> 00:23:56,559
+on i mean i'm gonna put my head down and
+
+720
+00:23:54,320 --> 00:23:57,919
+right type of guy that makes me happy
+
+721
+00:23:56,559 --> 00:24:00,400
+having to go out and talk about the
+
+722
+00:23:57,919 --> 00:24:02,400
+books you know okay that's harder for me
+
+723
+00:24:00,400 --> 00:24:05,360
+i like the part where it's just me
+
+724
+00:24:02,400 --> 00:24:07,440
+me and the idea i guess me and the idea
+
+725
+00:24:05,360 --> 00:24:09,279
+and jesse and tens of thousands of
+
+726
+00:24:07,440 --> 00:24:11,039
+podcast listeners but but that's it just
+
+727
+00:24:09,279 --> 00:24:11,919
+our small circle talking about these
+
+728
+00:24:11,039 --> 00:24:12,960
+things
+
+729
+00:24:11,919 --> 00:24:14,400
+um
+
+730
+00:24:12,960 --> 00:24:15,679
+so i like that i like to sell multiple
+
+731
+00:24:14,400 --> 00:24:17,600
+books at a time if i can because i don't
+
+732
+00:24:15,679 --> 00:24:19,360
+want to spend it's a pain to sell books
+
+733
+00:24:17,600 --> 00:24:21,760
+man and it's it's
+
+734
+00:24:19,360 --> 00:24:23,919
+it's stressful and it's complicated and
+
+735
+00:24:21,760 --> 00:24:25,919
+there's a ton of
+
+736
+00:24:23,919 --> 00:24:27,679
+fiddling overhead on it too i mean these
+
+737
+00:24:25,919 --> 00:24:30,159
+proposals are
+
+738
+00:24:27,679 --> 00:24:32,080
+50 pages long it just takes a long time
+
+739
+00:24:30,159 --> 00:24:34,559
+to write but it's not fun writing it's
+
+740
+00:24:32,080 --> 00:24:35,919
+not oh i'm writing about ideas it's you
+
+741
+00:24:34,559 --> 00:24:38,000
+know you're writing about your marketing
+
+742
+00:24:35,919 --> 00:24:39,919
+plan and stuff like that so yeah
+
+743
+00:24:38,000 --> 00:24:41,200
+i try not to do it more than i need to
+
+744
+00:24:39,919 --> 00:24:43,120
+one thing you mentioned the ferris
+
+745
+00:24:41,200 --> 00:24:45,360
+interview was he asked you started off
+
+746
+00:24:43,120 --> 00:24:46,960
+with your relationship or your
+
+747
+00:24:45,360 --> 00:24:48,000
+steve martin he was asking about him and
+
+748
+00:24:46,960 --> 00:24:49,840
+then you were talking about his
+
+749
+00:24:48,000 --> 00:24:51,840
+autobiography
+
+750
+00:24:49,840 --> 00:24:53,600
+i listened to the auto audio book
+
+751
+00:24:51,840 --> 00:24:55,919
+recently and at the end
+
+752
+00:24:53,600 --> 00:24:57,360
+he was he had the
+
+753
+00:24:55,919 --> 00:24:58,720
+the quote where he was in i think it was
+
+754
+00:24:57,360 --> 00:25:00,320
+in the jerk when he was like leaving the
+
+755
+00:24:58,720 --> 00:25:02,240
+house i was like i just need this and i
+
+756
+00:25:00,320 --> 00:25:03,679
+need this one thing and he needed all
+
+757
+00:25:02,240 --> 00:25:05,600
+those things that kind of reminded me of
+
+758
+00:25:03,679 --> 00:25:07,360
+what you just instead this and then just
+
+759
+00:25:05,600 --> 00:25:09,520
+this and just a little bit of that and
+
+760
+00:25:07,360 --> 00:25:11,120
+then just this and yeah
+
+761
+00:25:09,520 --> 00:25:14,600
+good book born standing up yeah i
+
+762
+00:25:11,120 --> 00:25:14,600
+recommend it
+
+763
+00:25:18,640 --> 00:25:20,720
+you
+

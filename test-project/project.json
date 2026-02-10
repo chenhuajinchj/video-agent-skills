@@ -1,0 +1,25 @@
+{
+  "name": "test-project",
+  "topic": "巴菲特的逆向思维",
+  "created_at": "2026-02-06T14:23:16",
+  "updated_at": "2026-02-06T14:28:29",
+  "status": {
+    "researcher": "completed",
+    "writer": "completed",
+    "voice": "completed",
+    "visual": "completed",
+    "editor": "completed",
+    "publisher": "completed"
+  },
+  "checkpoints": {
+    "outline_approved": true,
+    "script_approved": true,
+    "preview_approved": true
+  },
+  "current_step": "all-completed",
+  "config": {
+    "tts_engine": "edge-tts",
+    "target_duration": "6-10min",
+    "platforms": ["douyin", "bilibili", "youtube"]
+  }
+}

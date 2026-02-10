@@ -1,0 +1,28 @@
+{
+  "topic": "唯一的生产力是时间",
+  "titles": {
+    "douyin": [
+      "你学了100个效率方法，不如搞懂这一个公式",
+      "为什么你越忙越没产出？答案只有一个字",
+      "牛顿用20年写一本书，你却想一天做完所有事"
+    ],
+    "bilibili": [
+      "【深度解析】唯一的生产力是时间：Cal Newport的反常识生产力公式",
+      "别再找效率工具了！真正的生产力只有一个变量",
+      "4小时深度工作=8小时摸鱼？注意力残留效应揭秘"
+    ],
+    "youtube": [
+      "The Only Productivity That Matters Is Time | Deep Work Explained",
+      "唯一的生产力是时间：为什么你越忙越没产出",
+      "Stop Chasing Productivity Hacks - Cal Newport's Deep Work Formula"
+    ]
+  },
+  "description": "大多数人以为提高生产力的方法是学更多工具、用更多技巧。但Cal Newport的研究告诉我们一个反直觉的事实——真正的生产力公式只有一个变量：时间。本期视频从「忙碌≠生产力」出发，解析高质量产出公式、注意力残留效应、专注力训练方法，以及「慢生产力」的三个原则。",
+  "hashtags": ["#时间管理", "#深度工作", "#DeepWork", "#CalNewport", "#专注力", "#生产力", "#慢生产力", "#SlowProductivity", "#认知成长", "#效率"],
+  "keywords": ["时间管理", "深度工作", "Cal Newport", "专注力", "生产力", "注意力残留", "慢生产力", "时间分块"],
+  "recommended_bgm": [
+    {"name": "轻松思考", "mood": "calm-thinking", "source": "pixabay"},
+    {"name": "沉静内省", "mood": "reflective-minimal", "source": "pixabay"},
+    {"name": "温暖叙事", "mood": "warm-narrative", "source": "pixabay"}
+  ]
+}

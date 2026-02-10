@@ -1,0 +1,45 @@
+{
+  "topic": "唯一的生产力是时间",
+  "collected_at": "2026-02-07",
+  "articles": [
+    {
+      "id": "article_001",
+      "title": "Deep Work by Cal Newport - Summary & Notes",
+      "source": "grahammann.net",
+      "url": "https://www.grahammann.net/book-notes/deep-work-cal-newport",
+      "file": "materials/articles/article_001_deep_work_summary.txt",
+      "key_points": ["深度工作定义", "高质量产出=时间×专注强度", "四大规则", "注意力残留效应"]
+    },
+    {
+      "id": "article_002",
+      "title": "Deep Work Book Notes - Detailed Summary",
+      "source": "calvinrosser.com",
+      "url": "https://calvinrosser.com/notes/deep-work-cal-newport",
+      "file": "materials/articles/article_002_deep_work_book_notes.txt",
+      "key_points": ["生产性冥想", "日程规划", "保护时间", "接受小失败"]
+    }
+  ],
+  "transcripts": [
+    {
+      "id": "transcript_001",
+      "title": "Core Idea: Slow Productivity - Cal Newport",
+      "source": "YouTube",
+      "file": "materials/transcripts/transcript_Core Idea：  Slow Productivity.en.srt",
+      "key_points": ["慢生产力", "做更少的事", "自然节奏", "痴迷于质量"]
+    },
+    {
+      "id": "transcript_002",
+      "title": "Success in a distracted world: DEEP WORK by Cal Newport",
+      "source": "YouTube / Productivity Game",
+      "file": "materials/transcripts/transcript_Success in a distracted world： DEEP WORK by Cal Ne.en.srt",
+      "key_points": ["深度工作vs浅层工作", "专注力训练", "社交媒体戒断"]
+    },
+    {
+      "id": "transcript_003",
+      "title": "Maximize Productivity With Time Management Tips",
+      "source": "YouTube",
+      "file": "materials/transcripts/transcript_Maximize Productivity With These Time Management T.en.srt",
+      "key_points": ["时间分块", "优先级矩阵", "消除干扰"]
+    }
+  ]
+}

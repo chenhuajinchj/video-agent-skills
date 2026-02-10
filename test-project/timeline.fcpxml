@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.9">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p30" frameDuration="100/3000s" width="1920" height="1080"/>
+    <asset id="audio_main" name="voiceover" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/audio/voiceover.mp3" hasAudio="1" duration="6684/30s"/>
+    <asset id="visual_001" name="001" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/001_stock-market.png" hasVideo="1" format="r1"/>
+    <asset id="visual_002" name="002" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/002_%E5%B7%B4%E8%8F%B2%E7%89%B9%E5%BE%AE%E7%AC%91%E7%9D%80%E5%9D%90%E5%9C%A8%E5%8A%9E%E5%85%AC%E6%A1%8C%E5%89%8D%E7%9A%84%E7%85%A7%E7%89%87.png" hasVideo="1" format="r1"/>
+    <asset id="visual_003" name="003" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/003_stock-market-finance.png" hasVideo="1" format="r1"/>
+    <asset id="visual_004" name="004" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/004_%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E5%A4%B4%E7%89%88%E6%96%87%E7%AB%A0%E6%88%AA%E5%9B%BE.png" hasVideo="1" format="r1"/>
+    <asset id="visual_005" name="005" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/005_%E6%96%87%E5%AD%97%E5%8A%A8%E7%94%BB%E3%80%8C%E5%88%AB%E4%BA%BA%E8%B4%AA%E5%A9%AA%E6%97%B6%E6%88%91%E6%81%90%E6%83%A7%EF%BC%8C%E5%88%AB%E4%BA%BA%E6%81%90%E6%83%A7%E6%97%B6%E6%88%91.png" hasVideo="1" format="r1"/>
+    <asset id="visual_006" name="006" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/006_%E9%97%AE%E5%8F%B7%E5%8A%A8%E7%94%BB%EF%BC%8C%E5%BC%95%E5%87%BA%E4%B8%89%E4%B8%AA%E6%A0%B8%E5%BF%83%E5%8E%9F%E5%88%99.png" hasVideo="1" format="r1"/>
+    <asset id="visual_007" name="007" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/007_%E6%A0%BC%E9%9B%B7%E5%8E%84%E5%A7%86%E7%9A%84%E7%BB%8F%E5%85%B8%E8%91%97%E4%BD%9C%E3%80%8A%E8%81%AA%E6%98%8E%E7%9A%84%E6%8A%95%E8%B5%84%E8%80%85%E3%80%8B%E5%B0%81%E9%9D%A2.png" hasVideo="1" format="r1"/>
+    <asset id="visual_008" name="008" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/008_%E4%B8%80%E4%B8%AA%E6%83%85%E7%BB%AA%E5%8C%96%E7%9A%84%E5%95%86%E4%BA%BA%E6%AF%8F%E5%A4%A9%E6%95%B2%E9%97%A8%E6%8A%A5%E4%BB%B7%E7%9A%84%E5%8A%A8%E7%94%BB.png" hasVideo="1" format="r1"/>
+    <asset id="visual_009" name="009" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/009_%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%86%B7%E9%9D%99%E5%9C%B0%E6%91%87%E5%A4%B4%E6%8B%92%E7%BB%9D%E7%9A%84%E7%94%BB%E9%9D%A2.png" hasVideo="1" format="r1"/>
+    <asset id="visual_010" name="010" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/010_%E8%82%A1%E7%A5%A8K%E7%BA%BF%E5%9B%BE%E5%92%8C%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90%E5%9B%BE%E8%A1%A8.png" hasVideo="1" format="r1"/>
+    <asset id="visual_011" name="011" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/011_%E6%A3%92%E7%90%83%E5%9C%BA%E4%B8%8A%E5%87%BB%E7%90%83%E6%89%8B%E7%AB%99%E5%9C%A8%E6%9C%AC%E5%9E%92%E6%9D%BF%E5%89%8D.png" hasVideo="1" format="r1"/>
+    <asset id="visual_012" name="012" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/012_%E6%A3%92%E7%90%83%E6%AF%94%E8%B5%9B%E4%B8%AD%E4%B8%89%E6%8C%AF%E5%87%BA%E5%B1%80%E7%9A%84%E7%94%BB%E9%9D%A2.png" hasVideo="1" format="r1"/>
+    <asset id="visual_013" name="013" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/013_%E5%B7%B4%E8%8F%B2%E7%89%B9%E7%BF%BB%E9%98%85%E8%B4%A2%E6%8A%A5%E7%9A%84%E7%85%A7%E7%89%87.png" hasVideo="1" format="r1"/>
+    <asset id="visual_014" name="014" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/014_%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%9C%A8%E5%98%88%E6%9D%82%E7%9A%84%E4%BA%A4%E6%98%93%E5%A4%A7%E5%8E%85%E4%B8%AD%E5%86%B7%E9%9D%99%E5%9D%90%E7%9D%80.png" hasVideo="1" format="r1"/>
+    <asset id="visual_015" name="015" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/015_%E6%97%B6%E9%97%B4%E5%BF%AB%E8%BF%9B%E5%8A%A8%E7%94%BB%EF%BC%8C%E4%BB%8E%E7%A7%8D%E5%AD%90%E5%88%B0%E5%A4%A7%E6%A0%91.png" hasVideo="1" format="r1"/>
+    <asset id="visual_016" name="016" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/016_stock-market.png" hasVideo="1" format="r1"/>
+    <asset id="visual_017" name="017" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/017_%E5%B7%B4%E8%8F%B2%E7%89%B9%E5%92%8C%E5%8F%AF%E5%8F%A3%E5%8F%AF%E4%B9%90%E7%BD%90%E5%A4%B4%E7%9A%84%E7%BB%8F%E5%85%B8%E7%85%A7%E7%89%87.png" hasVideo="1" format="r1"/>
+    <asset id="visual_018" name="018" src="file:///Users/chenhuajin/CC%E8%A7%86%E9%A2%91/video-skills/test-project/visuals/visuals/018_%E6%80%BB%E7%BB%93%E6%96%87%E5%AD%97%E7%94%BB%E9%9D%A2%E3%80%8C%E4%B8%89%E4%B8%AA%E5%8E%9F%E5%88%99%E3%80%8D.png" hasVideo="1" format="r1"/>
+    <effect id="subtitle_effect" name="字幕" uid=".../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti"/>
+    <text-style-def id="ts1">
+      <text-style font="PingFang SC" fontSize="48" fontColor="1 1 1 1" bold="1" shadowColor="0 0 0 0.75" shadowOffset="2 315" alignment="center"/>
+    </text-style-def>
+  </resources>
+  <library>
+    <event name="test-project">
+      <project name="时间轴">
+        <sequence format="r1" duration="6684/30s" tcStart="0s" tcFormat="NDF">
+          <spine>
+            <clip name="画面#001" offset="3/30s" duration="262/30s" start="0s">
+              <video ref="visual_001" offset="0s" duration="262/30s"/>
+            </clip>
+            <clip name="画面#002" offset="265/30s" duration="299/30s" start="0s">
+              <video ref="visual_002" offset="0s" duration="299/30s"/>
+            </clip>
+            <clip name="画面#003" offset="564/30s" duration="387/30s" start="0s">
+              <video ref="visual_003" offset="0s" duration="387/30s"/>
+            </clip>
+            <clip name="画面#004" offset="952/30s" duration="420/30s" start="0s">
+              <video ref="visual_004" offset="0s" duration="420/30s"/>
+            </clip>
+            <clip name="画面#005" offset="1372/30s" duration="314/30s" start="0s">
+              <video ref="visual_005" offset="0s" duration="314/30s"/>
+            </clip>
+            <clip name="画面#006" offset="1687/30s" duration="267/30s" start="0s">
+              <video ref="visual_006" offset="0s" duration="267/30s"/>
+            </clip>
+            <clip name="画面#007" offset="1955/30s" duration="132/30s" start="0s">
+              <video ref="visual_007" offset="0s" duration="132/30s"/>
+            </clip>
+            <clip name="画面#008" offset="2087/30s" duration="404/30s" start="0s">
+              <video ref="visual_008" offset="0s" duration="404/30s"/>
+            </clip>
+            <clip name="画面#009" offset="2491/30s" duration="404/30s" start="0s">
+              <video ref="visual_009" offset="0s" duration="404/30s"/>
+            </clip>
+            <clip name="画面#010" offset="2895/30s" duration="451/30s" start="0s">
+              <video ref="visual_010" offset="0s" duration="451/30s"/>
+            </clip>
+            <clip name="画面#011" offset="3346/30s" duration="139/30s" start="0s">
+              <video ref="visual_011" offset="0s" duration="139/30s"/>
+            </clip>
+            <clip name="画面#012" offset="3486/30s" duration="431/30s" start="0s">
+              <video ref="visual_012" offset="0s" duration="431/30s"/>
+            </clip>
+            <clip name="画面#013" offset="3918/30s" duration="431/30s" start="0s">
+              <video ref="visual_013" offset="0s" duration="431/30s"/>
+            </clip>
+            <clip name="画面#014" offset="4349/30s" duration="451/30s" start="0s">
+              <video ref="visual_014" offset="0s" duration="451/30s"/>
+            </clip>
+            <clip name="画面#015" offset="4800/30s" duration="115/30s" start="0s">
+              <video ref="visual_015" offset="0s" duration="115/30s"/>
+            </clip>
+            <clip name="画面#016" offset="4916/30s" duration="595/30s" start="0s">
+              <video ref="visual_016" offset="0s" duration="595/30s"/>
+            </clip>
+            <clip name="画面#017" offset="5512/30s" duration="521/30s" start="0s">
+              <video ref="visual_017" offset="0s" duration="521/30s"/>
+            </clip>
+            <clip name="画面#018" offset="6033/30s" duration="650/30s" start="0s">
+              <video ref="visual_018" offset="0s" duration="650/30s"/>
+            </clip>
+            <title name="字幕 1" offset="3/30s" duration="89/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">你有没有发现一个奇怪的现象？</text-style>
+              </text>
+            </title>
+            <title name="字幕 2" offset="90/30s" duration="85/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">股市涨的时候，所有人都在买。</text-style>
+              </text>
+            </title>
+            <title name="字幕 3" offset="176/30s" duration="88/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">股市跌的时候，所有人都在卖。</text-style>
+              </text>
+            </title>
+            <title name="字幕 4" offset="265/30s" duration="85/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">但有一个人，永远在反着来。</text-style>
+              </text>
+            </title>
+            <title name="字幕 5" offset="351/30s" duration="138/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">别人疯狂的时候他冷静，别人恐惧的时候他出手。</text-style>
+              </text>
+            </title>
+            <title name="字幕 6" offset="489/30s" duration="74/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">他就是沃伦·巴菲特。</text-style>
+              </text>
+            </title>
+            <title name="字幕 7" offset="564/30s" duration="112/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">2008 年 9 月，全球金融市场崩溃。</text-style>
+              </text>
+            </title>
+            <title name="字幕 8" offset="677/30s" duration="145/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">雷曼兄弟倒闭，道琼斯指数一天暴跌 777 点。</text-style>
+              </text>
+            </title>
+            <title name="字幕 9" offset="822/30s" duration="129/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">所有人都在疯狂抛售，恨不得把手里的股票全扔掉。</text-style>
+              </text>
+            </title>
+            <title name="字幕 10" offset="952/30s" duration="150/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">就在这个时候，巴菲特在《纽约时报》发了一篇文章。</text-style>
+              </text>
+            </title>
+            <title name="字幕 11" offset="1102/30s" duration="94/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">标题只有四个词：「Buy American.</text-style>
+              </text>
+            </title>
+            <title name="字幕 12" offset="1196/30s" duration="50/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">I Am.</text-style>
+              </text>
+            </title>
+            <title name="字幕 13" offset="1246/30s" duration="126/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">翻译过来就是：买美国资产吧，我正在买。</text-style>
+              </text>
+            </title>
+            <title name="字幕 14" offset="1372/30s" duration="85/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">这就是巴菲特最著名的那句话：</text-style>
+              </text>
+            </title>
+            <title name="字幕 15" offset="1458/30s" duration="121/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">别人贪婪时我恐惧，别人恐惧时我贪婪。</text-style>
+              </text>
+            </title>
+            <title name="字幕 16" offset="1580/30s" duration="107/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">听起来简单，但 99% 的人做不到。</text-style>
+              </text>
+            </title>
+            <title name="字幕 17" offset="1687/30s" duration="136/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">今天我们就来聊聊，巴菲特逆向思维背后的三个核心原则。</text-style>
+              </text>
+            </title>
+            <title name="字幕 18" offset="1824/30s" duration="130/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">搞懂这三点，你对投资的理解会完全不一样。</text-style>
+              </text>
+            </title>
+            <title name="字幕 19" offset="1955/30s" duration="132/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">第一个原则：市场是来服务你的，不是来指导你的。</text-style>
+              </text>
+            </title>
+            <title name="字幕 20" offset="2087/30s" duration="143/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">巴菲特的老师格雷厄姆讲过一个比喻，叫「市场先生」。</text-style>
+              </text>
+            </title>
+            <title name="字幕 21" offset="2230/30s" duration="135/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">想象有一个人，每天都来敲你的门，给你报一个价格。</text-style>
+              </text>
+            </title>
+            <title name="字幕 22" offset="2366/30s" duration="87/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">有时候他很乐观，报价很高。</text-style>
+              </text>
+            </title>
+            <title name="字幕 23" offset="2454/30s" duration="81/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">有时候他很悲观，报价很低。</text-style>
+              </text>
+            </title>
+            <title name="字幕 24" offset="2535/30s" duration="42/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">关键是什么？</text-style>
+              </text>
+            </title>
+            <title name="字幕 25" offset="2577/30s" duration="67/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">你没有义务接受他的报价。</text-style>
+              </text>
+            </title>
+            <title name="字幕 26" offset="2645/30s" duration="69/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">他报高了，你可以不卖。</text-style>
+              </text>
+            </title>
+            <title name="字幕 27" offset="2714/30s" duration="74/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">他报低了，你可以不买。</text-style>
+              </text>
+            </title>
+            <title name="字幕 28" offset="2789/30s" duration="106/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">你甚至可以直接关门，假装他不存在。</text-style>
+              </text>
+            </title>
+            <title name="字幕 29" offset="2895/30s" duration="58/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">但大多数人怎么做的？</text-style>
+              </text>
+            </title>
+            <title name="字幕 30" offset="2953/30s" duration="138/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">他们盯着 K 线图，看什么动量指标、均线交叉。</text-style>
+              </text>
+            </title>
+            <title name="字幕 31" offset="3092/30s" duration="111/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">巴菲特说，这些人犯了一个根本性的错误——</text-style>
+              </text>
+            </title>
+            <title name="字幕 32" offset="3204/30s" duration="142/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">他们把市场当成了老师，让市场来指导自己的决策。</text-style>
+              </text>
+            </title>
+            <title name="字幕 33" offset="3346/30s" duration="139/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">第二个原则：投资中没有「好球带」，你可以无限等待。</text-style>
+              </text>
+            </title>
+            <title name="字幕 34" offset="3486/30s" duration="154/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">打棒球的时候，球飞过好球带你不挥棒，裁判会判你好球。</text-style>
+              </text>
+            </title>
+            <title name="字幕 35" offset="3640/30s" duration="85/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">三个好球不打，你就出局了。</text-style>
+              </text>
+            </title>
+            <title name="字幕 36" offset="3726/30s" duration="114/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">所以棒球手必须在有限的机会里做决定。</text-style>
+              </text>
+            </title>
+            <title name="字幕 37" offset="3841/30s" duration="58/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">但投资完全不一样。</text-style>
+              </text>
+            </title>
+            <title name="字幕 38" offset="3900/30s" duration="106/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">巴菲特说：「投资中没有好球带的概念。</text-style>
+              </text>
+            </title>
+            <title name="字幕 39" offset="4006/30s" duration="136/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">你可以看一千家公司，一家都不买，没有人会判你出局。</text-style>
+              </text>
+            </title>
+            <title name="字幕 40" offset="4143/30s" duration="206/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">你可以等一年、两年、五年，直到那个你真正理解的、价格合理的机会出现。</text-style>
+              </text>
+            </title>
+            <title name="字幕 41" offset="4349/30s" duration="159/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">这就是为什么巴菲特说，情绪化的人在投资中不会做得好。</text-style>
+              </text>
+            </title>
+            <title name="字幕 42" offset="4509/30s" duration="100/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">事实就是事实，理性就是理性。</text-style>
+              </text>
+            </title>
+            <title name="字幕 43" offset="4609/30s" duration="107/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">大多数人亏钱，不是因为他们不够聪明，</text-style>
+              </text>
+            </title>
+            <title name="字幕 44" offset="4716/30s" duration="84/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">而是因为他们太着急了。</text-style>
+              </text>
+            </title>
+            <title name="字幕 45" offset="4800/30s" duration="115/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">第三个原则：长期主义是唯一确定的事。</text-style>
+              </text>
+            </title>
+            <title name="字幕 46" offset="4916/30s" duration="75/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">巴菲特说过一句很有意思的话：</text-style>
+              </text>
+            </title>
+            <title name="字幕 47" offset="4992/30s" duration="170/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">我永远不知道市场短期会怎样，但我知道长期它一定会上涨。</text-style>
+              </text>
+            </title>
+            <title name="字幕 48" offset="5163/30s" duration="101/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">你看美国股市过去一百年的走势图，</text-style>
+              </text>
+            </title>
+            <title name="字幕 49" offset="5264/30s" duration="112/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">中间有无数次暴跌、崩盘、危机。</text-style>
+              </text>
+            </title>
+            <title name="字幕 50" offset="5376/30s" duration="135/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">但如果你把时间拉长到几十年，它就是一条向上的曲线。</text-style>
+              </text>
+            </title>
+            <title name="字幕 51" offset="5512/30s" duration="84/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">巴菲特自己就是最好的例子。</text-style>
+              </text>
+            </title>
+            <title name="字幕 52" offset="5596/30s" duration="140/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">他 1988 年买入可口可乐的股票，一直持有到今天。</text-style>
+              </text>
+            </title>
+            <title name="字幕 53" offset="5737/30s" duration="80/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">三十多年，从来没卖过。</text-style>
+              </text>
+            </title>
+            <title name="字幕 54" offset="5817/30s" duration="149/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">当年投入的 10 亿美元，现在光每年的分红就超过 7 亿。</text-style>
+              </text>
+            </title>
+            <title name="字幕 55" offset="5967/30s" duration="66/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">这就是长期主义的力量。</text-style>
+              </text>
+            </title>
+            <title name="字幕 56" offset="6033/30s" duration="137/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">所以，巴菲特的逆向思维，说到底就是三件事：</text-style>
+              </text>
+            </title>
+            <title name="字幕 57" offset="6171/30s" duration="114/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">第一，市场是来服务你的，不要被它牵着走。</text-style>
+              </text>
+            </title>
+            <title name="字幕 58" offset="6285/30s" duration="117/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">第二，你可以无限等待，不要急着出手。</text-style>
+              </text>
+            </title>
+            <title name="字幕 59" offset="6402/30s" duration="154/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">第三，找到好公司，然后什么都不做，让时间帮你赚钱。</text-style>
+              </text>
+            </title>
+            <title name="字幕 60" offset="6557/30s" duration="127/30s" ref="subtitle_effect" lane="1">
+              <text>
+                <text-style ref="ts1">如果你觉得有收获，点个关注，我们下期见。</text-style>
+              </text>
+            </title>
+          </spine>
+          <asset-clip name="voiceover" offset="0s" ref="audio_main" duration="6684/30s" lane="-1"/>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

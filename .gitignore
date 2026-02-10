@@ -1,0 +1,35 @@
+# Media files
+*.mp4
+*.mp3
+*.wav
+*.aac
+*.flac
+
+# Image files (project assets, not code)
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.bmp
+*.tiff
+
+# Project output
+*/output.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

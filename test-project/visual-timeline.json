@@ -1,0 +1,208 @@
+{
+  "video_specs": {
+    "resolution": "1920x1080",
+    "fps": 30,
+    "aspect_ratio": "16:9"
+  },
+  "total_duration": 222.825,
+  "visuals": [
+    {
+      "index": 1,
+      "id": "画面#001",
+      "file": "visuals/001_stock-market.png",
+      "description": "股市大屏幕上数字疯狂跳动，红绿交替",
+      "start_time": 0.1,
+      "end_time": 8.837,
+      "duration": 8.74,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 2,
+      "id": "画面#002",
+      "file": "visuals/002_巴菲特微笑着坐在办公桌前的照片.png",
+      "description": "巴菲特微笑着坐在办公桌前的照片",
+      "start_time": 8.837,
+      "end_time": 18.812,
+      "duration": 9.98,
+      "type": "image",
+      "source": "ai-generated"
+    },
+    {
+      "index": 3,
+      "id": "画面#003",
+      "file": "visuals/003_stock-market-finance.png",
+      "description": "2008年金融危机新闻画面，股市暴跌",
+      "start_time": 18.812,
+      "end_time": 31.737,
+      "duration": 12.92,
+      "type": "image",
+      "source": "youtube"
+    },
+    {
+      "index": 4,
+      "id": "画面#004",
+      "file": "visuals/004_纽约时报头版文章截图.png",
+      "description": "纽约时报头版文章截图",
+      "start_time": 31.737,
+      "end_time": 45.762,
+      "duration": 14.03,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 5,
+      "id": "画面#005",
+      "file": "visuals/005_文字动画「别人贪婪时我恐惧，别人恐惧时我.png",
+      "description": "文字动画「别人贪婪时我恐惧，别人恐惧时我贪婪」",
+      "start_time": 45.762,
+      "end_time": 56.25,
+      "duration": 10.49,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 6,
+      "id": "画面#006",
+      "file": "visuals/006_问号动画，引出三个核心原则.png",
+      "description": "问号动画，引出三个核心原则",
+      "start_time": 56.25,
+      "end_time": 65.175,
+      "duration": 8.92,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 7,
+      "id": "画面#007",
+      "file": "visuals/007_格雷厄姆的经典著作《聪明的投资者》封面.png",
+      "description": "格雷厄姆的经典著作《聪明的投资者》封面",
+      "start_time": 65.175,
+      "end_time": 69.575,
+      "duration": 4.4,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 8,
+      "id": "画面#008",
+      "file": "visuals/008_一个情绪化的商人每天敲门报价的动画.png",
+      "description": "一个情绪化的商人每天敲门报价的动画",
+      "start_time": 69.575,
+      "end_time": 83.05,
+      "duration": 13.475,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 9,
+      "id": "画面#009",
+      "file": "visuals/009_一个人冷静地摇头拒绝的画面.png",
+      "description": "一个人冷静地摇头拒绝的画面",
+      "start_time": 83.05,
+      "end_time": 96.525,
+      "duration": 13.475,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 10,
+      "id": "画面#010",
+      "file": "visuals/010_股票K线图和技术分析图表.png",
+      "description": "股票K线图和技术分析图表",
+      "start_time": 96.525,
+      "end_time": 111.562,
+      "duration": 15.04,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 11,
+      "id": "画面#011",
+      "file": "visuals/011_棒球场上击球手站在本垒板前.png",
+      "description": "棒球场上击球手站在本垒板前",
+      "start_time": 111.562,
+      "end_time": 116.225,
+      "duration": 4.66,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 12,
+      "id": "画面#012",
+      "file": "visuals/012_棒球比赛中三振出局的画面.png",
+      "description": "棒球比赛中三振出局的画面",
+      "start_time": 116.225,
+      "end_time": 130.606,
+      "duration": 14.381,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 13,
+      "id": "画面#013",
+      "file": "visuals/013_巴菲特翻阅财报的照片.png",
+      "description": "巴菲特翻阅财报的照片",
+      "start_time": 130.606,
+      "end_time": 144.987,
+      "duration": 14.381,
+      "type": "image",
+      "source": "ai-generated"
+    },
+    {
+      "index": 14,
+      "id": "画面#014",
+      "file": "visuals/014_一个人在嘈杂的交易大厅中冷静坐着.png",
+      "description": "一个人在嘈杂的交易大厅中冷静坐着",
+      "start_time": 144.987,
+      "end_time": 160.025,
+      "duration": 15.04,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 15,
+      "id": "画面#015",
+      "file": "visuals/015_时间快进动画，从种子到大树.png",
+      "description": "时间快进动画，从种子到大树",
+      "start_time": 160.025,
+      "end_time": 163.875,
+      "duration": 3.85,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 16,
+      "id": "画面#016",
+      "file": "visuals/016_stock-market.png",
+      "description": "股市百年走势图，整体向上",
+      "start_time": 163.875,
+      "end_time": 183.737,
+      "duration": 19.86,
+      "type": "image",
+      "source": "pexels"
+    },
+    {
+      "index": 17,
+      "id": "画面#017",
+      "file": "visuals/017_巴菲特和可口可乐罐头的经典照片.png",
+      "description": "巴菲特和可口可乐罐头的经典照片",
+      "start_time": 183.737,
+      "end_time": 201.125,
+      "duration": 17.39,
+      "type": "image",
+      "source": "ai-generated"
+    },
+    {
+      "index": 18,
+      "id": "画面#018",
+      "file": "visuals/018_总结文字画面「三个原则」.png",
+      "description": "总结文字画面「三个原则」",
+      "start_time": 201.125,
+      "end_time": 222.825,
+      "duration": 21.7,
+      "type": "image",
+      "source": "pexels"
+    }
+  ]
+}
