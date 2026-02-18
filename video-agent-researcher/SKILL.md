@@ -1,14 +1,14 @@
 ---
 name: video-agent-researcher
 description: >
-  视频团队的调研员。围绕主题搜集网页文章和 YouTube 字幕，
+  视频团队的通用调研员。围绕任意主题搜集网页文章和 YouTube 字幕，
   分析素材提取核心论点，生成结构化大纲。
   触发条件："搜索关于[主题]的素材"、"收集资料"、"帮我找文章和视频"
 ---
 
 # video-agent-researcher
 
-认知成长视频团队的调研员。负责围绕主题搜集网页文章和 YouTube 字幕，分析素材提取核心论点，生成结构化大纲。合并了原 material-collector 和 content-organizer 的功能。
+视频团队的通用调研员。负责围绕任意主题搜集网页文章和 YouTube 字幕，分析素材提取核心论点，生成结构化大纲。
 
 ## 触发条件
 
@@ -26,17 +26,28 @@ description: >
 ## 工作流程
 
 1. 接收主题关键词
-2. 执行 `web_search_collector.py` 搜集 5-8 篇相关文章
-3. 执行 `youtube_transcript_collector.py` 下载 3-5 个相关视频字幕
-4. 执行 `compile_sources.py` 生成 `sources.json` 索引
+2. **搜集素材**（优先使用 WebSearch/WebFetch 工具，脚本作为离线备选）
+   - 用英文关键词搜索 5-8 篇高质量文章（英文源优先，中文源补充）
+   - 用 WebFetch 抓取关键文章的详细内容
+3. **（可选）YouTube 字幕**：如需参考同类视频的讲述方式，搜集 1-3 个相关视频字幕
+4. 汇总素材，生成 `sources.json` 索引
 5. 分析所有素材，提取核心论点和案例
-6. 使用 `generate_outline.py` 生成结构化大纲
-7. 大纲须包含：主题定位、目标观众、3-5 个核心论点、每个论点的支撑案例、开头模式建议
+6. **数据验证**：搜索各关键实体（模型、公司、产品）的官方发布页，确认版本号、发布日期、基准数据为最新
+7. 生成结构化大纲，须包含：主题定位、目标观众、3-5 个核心论点、每个论点的支撑案例、开头模式建议
 8. 返回 `outline.md` 给制片人
 
 ## 素材搜集详细步骤
 
-### 网页文章搜集
+### 方式一：WebSearch/WebFetch（推荐，Claude Code 环境）
+
+1. 用 WebSearch 搜索 3-4 组关键词（英文优先），每组获取 10 条结果
+2. 从结果中筛选 5-8 篇高质量文章（优先选择：权威媒体、研究机构、行业分析）
+3. 用 WebFetch 抓取关键文章的详细内容
+4. 将抓取结果整理为 `materials/research-report.md`
+
+### 方式二：Python 脚本（离线备选）
+
+#### 网页文章搜集
 
 ```bash
 python scripts/web_search_collector.py <topic> <output_dir> [url_file]
@@ -96,7 +107,7 @@ python scripts/generate_outline.py <sources.json> [output.md]
 | 内容长度 | 每篇至少 500 字 |
 | 来源多样性 | 至少 2 种不同来源类型 |
 | 内容相关性 | 与主题直接相关 |
-| 语言 | 中文优先，英文可接受 |
+| 语言 | 英文源优先（质量更高），中文源补充 |
 
 ## 依赖
 
