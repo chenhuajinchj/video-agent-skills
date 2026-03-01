@@ -39,11 +39,11 @@ description: >
 4. **检查点 1**：展示大纲给用户确认
 5. 调用 `writer`：输入 `outline.md` → 等待 `script.md`
 6. **检查点 2**：展示逐字稿给用户确认
-7. 调用 `storyboarder`：输入 `script.md` → 等待 `storyboard.md`
+7. 运行 `generate_storyboard.py`：输入 `script.md` → 输出 `storyboard.json` + `storyboard.md`
 8. **检查点 2.5**：展示分镜表给用户确认
-9. 并行调用 `voice` 和 `visual`：
+9. 并行执行 `voice` 和 `generate_images.py`：
    - `voice`：输入 `script.md` + `voice-direction.md` → 输出 `audio/voiceover.mp3` + `audio/subtitles.srt`
-   - `visual`：输入 `storyboard.md` → 输出 `visuals/*.jpg` + `visual-timeline.json` + `visual-report.md`
+   - `generate_images.py`：输入 `storyboard.json` → 输出 `visuals/*.png` + `visual-timeline.json` + `visual-report.md`
 10. **交接包检查**：确认所有素材齐全后再启动剪辑师
 11. 根据 `output_target` 调度剪辑师（见下方「剪辑师调度」）
 12. **检查点 3**：展示素材预览给用户确认
@@ -57,21 +57,43 @@ description: >
 - **用户说"帮我选个题"** → 先调 operator，获取选题建议，用户从建议中选择主题后进入步骤 2
 - **用户直接给主题** → 跳过 operator，直接进入步骤 2
 
+### 步骤 7：分镜生成（脚本调用）
+
+运行分镜生成脚本替代 Claude agent：
+
+```bash
+cd <video-agent-storyboarder>
+python scripts/generate_storyboard.py <project_dir> --style "AI科技" --duration "6-10分钟"
+```
+
+输出 `storyboard.json`（结构化数据）和 `storyboard.md`（可读版本）。
+
 ### 步骤 8：检查点 2.5 — 分镜表确认
 
-在分镜师完成后、配音和美术启动前，展示分镜表给用户确认：
+在分镜脚本完成后、配音和美术启动前，展示分镜表给用户确认：
 
-- 展示分镜表概要：镜头总数、预估总时长、素材类型分布
+- 展示 `storyboard.md` 概要：镜头总数、预估总时长、素材类型分布
 - 检查项：
   - [ ] 镜头总数是否合理（通常 30-80 个镜头）
   - [ ] 预估总时长是否在目标范围内
-  - [ ] 素材类型分布是否合理（搜索图片 vs 后期制作 vs 屏幕录制）
-  - [ ] 关键场景的画面描述是否准确
-- 用户确认后才启动配音和美术
+  - [ ] 素材类型分布是否合理（AI 生成 vs 后期制作）
+  - [ ] 关键场景的 image_prompt 是否准确
+- 用户确认后才启动配音和图片生成
+
+### 步骤 9：图片生成（脚本调用，与 voice 并行）
+
+运行图片生成脚本替代 Claude agent：
+
+```bash
+cd <video-agent-visual>
+python scripts/generate_images.py <project_dir> --style tech --concurrency 5
+```
+
+输出 `visuals/*.png`、`visual-timeline.json` 和 `visual-report.md`。
 
 ### 步骤 10：交接包检查（剪辑师启动前）
 
-voice + visual 完成后、editor 启动前，制片人自动执行以下检查：
+voice + generate_images.py 完成后、editor 启动前，制片人自动执行以下检查：
 
 ```
 交接包检查清单：
