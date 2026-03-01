@@ -6,12 +6,12 @@
 
 ## 视频信息
 
-- 视频风格：{video_style}
-- 目标总时长：{total_duration}
+- 视频风格：${video_style}
+- 目标总时长：${total_duration}
 
 ## 逐字稿内容
 
-{script_content}
+${script_content}
 
 ## 输出要求
 

@@ -27,7 +27,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 SCRIPT_DIR = Path(__file__).parent
 STYLES_DIR = SCRIPT_DIR.parent / "styles"
 
-GEMINI_IMAGE_MODEL = "gemini-2.0-flash-exp"
+GEMINI_IMAGE_MODEL = "gemini-2.0-flash-exp-image-generation"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
 

@@ -20,6 +20,7 @@ import sys
 import time
 import argparse
 from pathlib import Path
+from string import Template
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
@@ -49,8 +50,9 @@ def load_script(project_dir: Path) -> str:
 
 def build_prompt(script_content: str, video_style: str, total_duration: str) -> str:
     """构建完整 prompt"""
-    template = load_prompt_template()
-    return template.format(
+    template_text = load_prompt_template()
+    template = Template(template_text)
+    return template.safe_substitute(
         script_content=script_content,
         video_style=video_style,
         total_duration=total_duration,
