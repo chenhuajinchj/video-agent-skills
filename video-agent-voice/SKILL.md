@@ -1,8 +1,10 @@
 ---
 name: video-agent-voice
 description: >
-  视频团队的配音师。将逐字稿转为语音和字幕，支持 Edge-TTS（免费）、ElevenLabs（高质量）、
-  自录音三种模式。能读取分镜表的情绪标注，生成带语速和情感控制的配音，
+  视频团队的配音师。将逐字稿转为语音和字幕，支持 MiniMax Speech-02（中文首选，全球#1）、
+  Edge-TTS（免费）、ElevenLabs（英文）、自录音四种模式。
+  MiniMax 支持 10 秒声音克隆，中文 WER 仅 2.25%。
+  能读取分镜表的情绪标注，生成带语速和情感控制的配音，
   以及供自录音参考的配音指导表。
   当收到"生成语音""处理音频""我录好音了"时触发，
   或由制片人（producer）调度时自动触发。
@@ -29,15 +31,27 @@ description: >
 
 ## 引擎选择
 
-| 引擎 | 成本 | 质量 | 情绪控制 | 适用场景 |
-|------|------|------|----------|----------|
+| 引擎 | 成本 | 中文质量 | 情绪控制 | 适用场景 |
+|------|------|---------|----------|----------|
+| MiniMax Speech-02 | 低 | 最高（全球#1） | emotion 参数 + 停顿标记 | 正式发布（中文首选） |
 | Edge-TTS | 免费 | 中等 | SSML 语速/音调 | 快速测试、草稿 |
-| ElevenLabs | 付费 | 高 | Prompt 情感描述 | 正式发布 |
+| ElevenLabs | 高 | 差（WER 16%） | Prompt 情感描述 | 英文视频 |
 | 自录音 | 免费 | 最高 | 完全自控 | 追求最佳效果 |
 
-- 默认使用 Edge-TTS
-- 如果 project.json 中指定 `tts_engine: elevenlabs`，使用 ElevenLabs API
+- 默认使用 **MiniMax Speech-02**（中文质量全球第一，价格仅 ElevenLabs 的 1/4）
+- 如果 project.json 中指定 `tts_engine: edge`，使用 Edge-TTS（免费草稿）
+- 如果指定 `tts_engine: elevenlabs`，使用 ElevenLabs API（仅适合英文）
 - 如果指定 `tts_engine: manual`，跳过语音生成，仅生成字幕模板和配音指导表
+
+### MiniMax 声音克隆（可选）
+
+支持用 10 秒录音克隆自己的声音，克隆后可反复使用：
+
+```bash
+python scripts/minimax_tts.py clone <你的录音.mp3> --voice-id myvoice001
+```
+
+克隆语音 7 天不使用会被自动删除，需重新克隆。克隆价格：9.9 元/次。
 
 ## 执行步骤
 
@@ -207,7 +221,25 @@ SSML 示例：
 - 男声：`zh-CN-YunxiNeural`
 - 女声：`zh-CN-XiaoxiaoNeural`
 
-#### 模式 B2：ElevenLabs（高质量）
+#### 模式 B2：MiniMax Speech-02（高质量，中文首选）
+
+```bash
+python scripts/minimax_tts.py \
+  <project>/script-plain.txt \
+  <project>/audio \
+  --voice <voice_id> \
+  --emotion auto
+```
+
+MiniMax 情绪控制方式：
+- 模型：`speech-02-hd`（最高质量）或 `speech-02-turbo`（更快）
+- emotion 参数：`auto`（自动）/ `happy` / `sad` / `calm`
+- 文本内停顿标记：`<#0.5#>` 表示停顿 0.5 秒
+- 长文本自动分段（每段不超过 8000 字符），多段用 ffmpeg 合并
+- 合并后使用 Whisper 生成精确字幕
+- 支持克隆语音：先用 `clone` 命令克隆，再用克隆的 voice_id 生成
+
+#### 模式 B3：ElevenLabs（仅英文视频）
 
 ```bash
 python scripts/elevenlabs_tts.py \
@@ -224,6 +256,7 @@ ElevenLabs 情绪控制方式：
 - 长文本分段（每段不超过 5000 字符），按段落情绪分别生成
 - 多段用 ffmpeg 合并
 - 合并后使用 Whisper 生成精确字幕
+- ⚠️ 注意：ElevenLabs 中文 WER 高达 16%，不建议用于中文视频
 
 ### 步骤 5：校验输出
 
@@ -246,7 +279,9 @@ ElevenLabs 情绪控制方式：
 
 | 环境变量 | 用途 |
 |----------|------|
-| ELEVENLABS_API_KEY | ElevenLabs 语音生成（模式 B2） |
+| MINIMAX_API_KEY | MiniMax 语音生成（模式 B2，推荐） |
+| MINIMAX_GROUP_ID | MiniMax 声音克隆（仅克隆时需要） |
+| ELEVENLABS_API_KEY | ElevenLabs 语音生成（模式 B3，仅英文） |
 
 ## 依赖
 
@@ -260,6 +295,7 @@ ElevenLabs 情绪控制方式：
 
 - `scripts/extract_plain_text.py` — 从 script.md 提取纯文本（更新过滤规则）
 - `scripts/build_emotion_map.py` — 从分镜表生成情绪节奏映射
+- `scripts/minimax_tts.py` — MiniMax Speech-02 语音生成 + 声音克隆（中文首选）
 - `scripts/edge_tts_generate.py` — Edge-TTS 语音+字幕生成（支持 SSML 情绪控制）
-- `scripts/elevenlabs_tts.py` — ElevenLabs 语音生成（支持 style prompt）
+- `scripts/elevenlabs_tts.py` — ElevenLabs 语音生成（仅英文，支持 style prompt）
 - `scripts/generate_subtitles.py` — Whisper 字幕生成
