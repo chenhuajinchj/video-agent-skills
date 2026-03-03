@@ -66,7 +66,7 @@ def call_gemini_api(prompt: str, api_key: str) -> str:
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "temperature": 0.7,
-            "maxOutputTokens": 16384,
+            "maxOutputTokens": 32768,
             "responseMimeType": "application/json",
         },
     }
@@ -74,7 +74,7 @@ def call_gemini_api(prompt: str, api_key: str) -> str:
     req = Request(url, data=data, headers={"Content-Type": "application/json"}, method="POST")
 
     try:
-        with urlopen(req, timeout=120) as resp:
+        with urlopen(req, timeout=300) as resp:
             result = json.loads(resp.read().decode("utf-8"))
     except HTTPError as e:
         body = e.read().decode("utf-8", errors="replace")
@@ -137,6 +137,18 @@ def validate_storyboard(shots: list) -> list[str]:
         ai_count = sum(1 for s in shots if s.get("media_format") in ("ai_video", "ai_image"))
         if ai_count / total > 0.5:
             warnings.append(f"⚠️  AI 生成素材占比 {ai_count}/{total} ({round(ai_count/total*100)}%)，建议不超过 50%")
+
+        concept_count = sum(1 for s in shots if s.get("asset_type") == "概念画面")
+        if concept_count / total > 0.45:
+            warnings.append(f"⚠️  概念画面占比 {concept_count}/{total} ({round(concept_count/total*100)}%)，建议不超过 45%")
+
+        manual_count = sum(1 for s in shots if s.get("media_format") == "manual")
+        if manual_count / total > 0.15:
+            warnings.append(f"⚠️  manual 素材占比 {manual_count}/{total} ({round(manual_count/total*100)}%)，过多会增加人工工作量，建议不超过 15%")
+
+        simple_count = sum(1 for s in shots if s.get("media_format") == "simple")
+        if simple_count > 3:
+            warnings.append(f"⚠️  留白镜头 {simple_count} 个，建议不超过 3 个")
 
         type_set = {s.get("asset_type") for s in shots}
         if "文字卡" not in type_set:
