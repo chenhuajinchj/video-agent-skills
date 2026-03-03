@@ -35,7 +35,7 @@ DEFAULT_MODEL = "speech-02-hd"
 DEFAULT_VOICE = "Chinese_Calm_Male"  # 系统预设中文男声
 MAX_CHUNK_CHARS = 8000  # MiniMax 单次上限 10000，留余量
 
-API_BASE = "https://api.minimax.io/v1"
+API_BASE = "https://api.minimaxi.com/v1"
 
 
 def get_api_key() -> str:
@@ -184,19 +184,16 @@ def merge_audio_files(file_list: list[str], output_path: str) -> None:
         Path(list_path).unlink(missing_ok=True)
 
 
-def clone_voice(audio_path: str, voice_id: str, api_key: str, group_id: str) -> None:
+def clone_voice(audio_path: str, voice_id: str, api_key: str) -> None:
     """克隆语音：上传音频文件 → 创建克隆语音"""
-    import urllib.parse
-
     audio_path = Path(audio_path)
     if not audio_path.exists():
         raise FileNotFoundError(f"音频文件不存在: {audio_path}")
 
     # Step 1: 上传音频文件
     print(f"📤 上传音频文件: {audio_path.name}")
-    upload_url = f"{API_BASE}/files/upload?GroupId={group_id}"
+    upload_url = f"{API_BASE}/files/upload"
 
-    # 使用 curl 上传（multipart/form-data 用 urllib 比较麻烦）
     cmd = [
         "curl", "-s",
         "-X", "POST", upload_url,
@@ -217,29 +214,27 @@ def clone_voice(audio_path: str, voice_id: str, api_key: str, group_id: str) -> 
 
     # Step 2: 克隆语音
     print(f"🔊 克隆语音: {voice_id}")
-    clone_url = f"{API_BASE}/voice_clone?GroupId={group_id}"
     clone_payload = {
         "file_id": file_id,
         "voice_id": voice_id,
+        "need_noise_reduction": True,
+        "need_volume_normalization": True,
+        "text": "你好，这是一段测试语音，用来验证声音克隆的效果。",
+        "model": "speech-02-hd",
+        "language_boost": "Chinese",
     }
-    data = json.dumps(clone_payload).encode("utf-8")
-    req = Request(clone_url, data=data, headers={
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json",
-    }, method="POST")
 
-    try:
-        with urlopen(req, timeout=60) as resp:
-            clone_resp = json.loads(resp.read().decode("utf-8"))
-    except HTTPError as e:
-        body = e.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"克隆失败: {e.code} {body}")
+    result = api_request("voice_clone", clone_payload, api_key, timeout=120)
 
-    status = clone_resp.get("base_resp", {}).get("status_code", -1)
+    status = result.get("base_resp", {}).get("status_code", -1)
     if status != 0:
-        raise RuntimeError(f"克隆失败: {clone_resp}")
+        msg = result.get("base_resp", {}).get("status_msg", "未知错误")
+        raise RuntimeError(f"克隆失败 (code={status}): {msg}")
 
+    demo_audio = result.get("demo_audio", "")
     print(f"✅ 语音克隆成功！voice_id: {voice_id}")
+    if demo_audio:
+        print(f"   试听链接: {demo_audio}")
     print(f"   使用方式: python minimax_tts.py <input.txt> <output_dir> --voice {voice_id}")
     print(f"   注意: 克隆语音 7 天不使用会被自动删除")
 
@@ -291,37 +286,34 @@ def generate_tts(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="MiniMax Speech-02 语音生成")
-    subparsers = parser.add_subparsers(dest="command")
+    # 检查是否是 clone 命令
+    if len(sys.argv) > 1 and sys.argv[1] == "clone":
+        parser = argparse.ArgumentParser(description="MiniMax 声音克隆")
+        parser.add_argument("command")  # "clone"
+        parser.add_argument("audio_file", help="参考音频文件路径（10秒-5分钟）")
+        parser.add_argument("--voice-id", required=True, help="自定义语音 ID（至少8字符，字母开头）")
+        args = parser.parse_args()
 
-    # 克隆语音命令
-    clone_parser = subparsers.add_parser("clone", help="克隆语音")
-    clone_parser.add_argument("audio_file", help="参考音频文件路径（10秒-5分钟）")
-    clone_parser.add_argument("--voice-id", required=True, help="自定义语音 ID（至少8字符，字母开头）")
-
-    # 默认：生成语音
-    parser.add_argument("input_text", nargs="?", help="纯文本文件路径")
-    parser.add_argument("output_dir", nargs="?", help="输出目录")
-    parser.add_argument("--voice", default=DEFAULT_VOICE, help=f"语音 ID（默认: {DEFAULT_VOICE}）")
-    parser.add_argument("--model", default=DEFAULT_MODEL, help=f"模型（默认: {DEFAULT_MODEL}）")
-    parser.add_argument("--speed", type=float, default=1.0, help="语速（默认: 1.0）")
-    parser.add_argument("--emotion", default="auto", help="情绪（auto/happy/sad/calm，默认: auto）")
-
-    args = parser.parse_args()
-
-    api_key = get_api_key()
-
-    if args.command == "clone":
-        group_id = get_group_id()
+        api_key = get_api_key()
         try:
-            clone_voice(args.audio_file, args.voice_id, api_key, group_id)
+            clone_voice(args.audio_file, args.voice_id, api_key)
         except Exception as e:
             print(f"❌ 克隆失败: {e}")
             sys.exit(1)
     else:
-        if not args.input_text or not args.output_dir:
-            parser.print_help()
-            sys.exit(1)
+        parser = argparse.ArgumentParser(
+            description="MiniMax Speech-02 语音生成",
+            usage="%(prog)s <input.txt> <output_dir> [--voice VOICE] [--speed SPEED] [--emotion EMOTION]",
+        )
+        parser.add_argument("input_text", help="纯文本文件路径")
+        parser.add_argument("output_dir", help="输出目录")
+        parser.add_argument("--voice", default=DEFAULT_VOICE, help=f"语音 ID（默认: {DEFAULT_VOICE}）")
+        parser.add_argument("--model", default=DEFAULT_MODEL, help=f"模型（默认: {DEFAULT_MODEL}）")
+        parser.add_argument("--speed", type=float, default=1.0, help="语速（默认: 1.0）")
+        parser.add_argument("--emotion", default="auto", help="情绪（auto/happy/sad/calm，默认: auto）")
+        args = parser.parse_args()
+
+        api_key = get_api_key()
 
         if not Path(args.input_text).exists():
             print(f"❌ 找不到输入文件: {args.input_text}")
