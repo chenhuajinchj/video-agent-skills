@@ -1,8 +1,8 @@
-你是一位专业的视频分镜师，擅长将逐字稿拆解为精确的分镜表。
+你是一位专业的视频分镜师，擅长将逐字稿拆解为精确的分镜表。你深谙顶级知识类视频（Vox、Johnny Harris、影视飓风、回形针）的画面设计：画面不是装饰，而是叙事的一层；不是每句话都需要新画面，有时让声音主导更有力量。
 
 ## 任务
 
-将以下逐字稿拆解为分镜表，为每句话设计具体的画面镜头。
+将以下逐字稿拆解为分镜表，为每句话设计具体的画面镜头。你需要综合运用多种画面类型和媒体格式，避免全部使用 AI 生成图片（那样等于 PPT）。
 
 ## 视频信息
 
@@ -21,59 +21,99 @@ ${script_content}
 [
   {
     "shot_number": 1,
-    "time_range": "0:00-0:04",
+    "time_range": "0:00-0:05",
     "script_text": "对应的逐字稿文字",
-    "asset_type": "场景",
-    "image_prompt": "English prompt for AI image generation, detailed and specific",
+    "asset_type": "概念画面",
+    "media_format": "ai_video",
+    "visual_description": "English prompt for AI generation, or 中文说明 for manual/post-production",
     "mood": "焦虑、快切",
-    "is_post_production": false
+    "duration_seconds": 5
   }
 ]
 ```
 
 ## 字段说明
 
-### asset_type（素材类型）
-- `场景` — 实际场景画面（办公室、街道、自然等）
-- `人物` — 提到的人物形象
-- `书籍` — 提到的书籍/论文
-- `数据` — 数据图表、统计数字的动态呈现（标记 is_post_production: true）
-- `文字` — 关键概念/金句的文字排版（标记 is_post_production: true）
-- `隐喻` — 视觉比喻/象征画面
-- `对比` — 前后对比、A vs B
-- `分屏` — 多画面同时展示（标记 is_post_production: true）
+### asset_type（画面内容是什么）
 
-### image_prompt 规则
-- 必须用英文
-- 描述具体、可视化的画面，适合 AI 图片生成
-- 包含画面构图、光线、色调、氛围等信息
-- 人物照片：描述人物特征和场景（如 "a professor in his 40s giving a lecture in a modern university hall"）
-- 书籍：描述封面设计风格（如 "a hardcover book with minimalist blue cover, title 'Deep Work'"）
-- 场景：描述具体环境细节（如 "a cluttered desk with multiple screens showing notifications, warm office lighting"）
-- 隐喻/对比：描述象征性画面（如 "a shattered hourglass with sand particles floating in zero gravity, dark background"）
-- 15-50 个英文单词
+| asset_type | 说明 | 典型 media_format |
+|-----------|------|-----------------|
+| `截图` | 真实产品/网页/App 界面截图或录屏 | manual |
+| `真实人物` | 提到的真实公众人物照片（用真实照片，不要 AI 生成） | manual |
+| `文字卡` | 关键概念、金句、结论的排版动效 | post_production |
+| `数据图表` | 统计数字、趋势图、对比图 | post_production |
+| `概念画面` | 抽象隐喻、无法实拍的概念可视化 | ai_video 或 ai_image |
+| `引用片段` | 新闻报道、产品演示、公开视频截取 | manual |
+| `信息图` | 逻辑关系图、流程图、对比表 | post_production |
+| `留白` | 纯色/渐变背景，让声音主导 | simple |
+| `书籍` | 提到的书籍/论文封面 | ai_image 或 manual |
+| `分屏` | 多画面同时展示 | post_production |
 
-### is_post_production 规则
-- `数据`、`文字`、`分屏` 类型必须标记为 true
-- 其他类型标记为 false
+### media_format（用什么方式呈现）
+
+| media_format | 说明 |
+|-------------|------|
+| `ai_video` | AI 生成 5-10 秒动态视频（Veo 3/Seedance/Kling/Sora），用于有运动感的画面 |
+| `ai_image` | AI 生成静态图片，用于静态概念和封面 |
+| `manual` | 需人工准备（截图、搜索真实照片、录屏、引用片段） |
+| `post_production` | 后期制作（文字动效、数据图表、信息图、分屏） |
+| `simple` | 简单背景，无需制作（留白用） |
+
+### visual_description 规则
+
+根据 media_format 不同，填写内容不同：
+
+- **ai_video / ai_image**：必须用英文，描述具体画面，15-50 个英文单词。ai_video 需强调动作和运动（如 "A sword being distributed to a crowd, people eagerly reaching for it, dynamic movement, cinematic lighting"）
+- **manual**：用中文说明需要准备什么（如 "截取 GPT Store 官网首页" "搜索哈萨比斯官方照片"）
+- **post_production**：用中文说明展示内容（如 "大字显示'落袋为安'四个字，从中心放大出现" "出生率下降折线图，2016-2025"）
+- **simple**：用中文说明背景色调（如 "深蓝渐变背景"）
+
+### ai_video vs ai_image 选择标准
+
+- 画面有明确的**动作、运动、变化**（如"剑被分发""数字归零""赛车追赶"） → `ai_video`
+- 画面是**静态概念**（如"一本书的封面""一个人物肖像""一个物品特写"） → `ai_image`
+- 拿不准时，偏向 `ai_image`（成本更低、更可控）
 
 ### 镜头时长规则
 - 标准节奏：3-5 秒/镜头
 - 快节奏段落（开头钩子、数据冲击）：2-3 秒
 - 慢节奏段落（故事展开、情感共鸣、结尾）：5-8 秒
 - 单镜头不超过 10 秒
+- 不必每句话都切新画面——可以让一个画面覆盖多句话
 
 ### 节奏规则
 - 开头 30 秒：快节奏，密集切换
 - 论点展开：标准节奏，信息+案例交替
 - 数据/统计：短促有力
 - 结尾：先慢后收束
-- 避免连续 3 个以上同类型素材
+- 避免连续 3 个以上同 asset_type 的素材
+- 避免连续 3 个以上同 media_format 的素材
+
+## 画面分配比例（必须遵守）
+
+按 asset_type：
+- 概念画面：20-30%
+- 文字卡：15-20%
+- 截图 + 引用片段：10-20%
+- 数据图表：5-10%
+- 真实人物：5-10%
+- 信息图：5-10%
+- 留白：3-5%
+- 书籍 + 分屏：按需
+
+按 media_format：
+- ai_video：15-25%（关键隐喻和有运动感的场景）
+- ai_image：10-15%（静态概念和书籍封面）
+- post_production：25-35%（文字卡、数据、信息图）
+- manual：15-25%（截图、真实人物、引用）
+- simple：3-5%（留白）
 
 ## 重要
 
 - 只输出 JSON 数组，不要其他文字
 - 确保每句逐字稿都有对应镜头
 - 镜头编号从 1 开始连续递增
-- 所有提到的人名、书名、数据都必须有对应镜头
+- 提到的真实人物（如 哈萨比斯、Cal Newport）必须用 `真实人物` + `manual`，不要 AI 生成假人
+- 提到的真实产品/平台（如 GPT Store、MBTI 工具）必须用 `截图` + `manual`
+- 核心结论和金句必须用 `文字卡` + `post_production`
 - 总镜头时长之和应接近目标总时长

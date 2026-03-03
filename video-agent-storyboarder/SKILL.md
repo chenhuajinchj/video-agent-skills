@@ -52,12 +52,13 @@ python scripts/generate_storyboard.py <project_dir> [--style <风格>] [--durati
 [
   {
     "shot_number": 1,
-    "time_range": "0:00-0:04",
+    "time_range": "0:00-0:05",
     "script_text": "你有没有想过一个问题",
-    "asset_type": "场景",
-    "image_prompt": "A person scrolling through a phone with countless notification pop-ups flooding the screen, warm office lighting, close-up shot",
+    "asset_type": "概念画面",
+    "media_format": "ai_video",
+    "visual_description": "A person scrolling through a phone with countless notification pop-ups flooding the screen, warm office lighting, close-up shot, dynamic movement",
     "mood": "焦虑、快切",
-    "is_post_production": false
+    "duration_seconds": 5
   }
 ]
 ```
@@ -71,25 +72,37 @@ python scripts/generate_storyboard.py <project_dir> [--style <风格>] [--durati
 
 ---
 
-| 镜头 | 时间 | 对应逐字稿 | 素材类型 | 图片生成 Prompt | 情绪/节奏 | 后期 |
-|------|------|-----------|---------|----------------|----------|------|
-| 001 | 0:00-0:04 | 你有没有想过一个问题 | 场景 | A person scrolling... | 焦虑、快切 | |
+| 镜头 | 时间 | 秒 | 对应逐字稿 | 素材类型 | 媒体格式 | 画面说明 | 情绪 |
+|------|------|----|-----------|---------|---------|---------|------|
+| 001 | 0:00-0:05 | 5 | 你有没有想过一个问题 | 概念画面 | ai_video | A person scrolling... | 焦虑、快切 |
 ```
 
 ## 核心规则
 
-### 素材类型分类
+### 素材类型（asset_type）
 
-| 类型 | 说明 | 后期制作 |
-|------|------|---------|
-| 场景 | 实拍或 AI 生成的场景画面 | 否 |
-| 人物 | 提到的人物形象 | 否 |
-| 书籍 | 提到的书籍/论文 | 否 |
-| 数据 | 数据图表、统计动画 | ✅ 是 |
-| 文字 | 关键概念/金句文字排版 | ✅ 是 |
-| 对比 | 前后对比、A vs B | 否 |
-| 分屏 | 多画面同时展示 | ✅ 是 |
-| 隐喻 | 视觉比喻/象征 | 否 |
+| 类型 | 说明 | 典型 media_format |
+|------|------|-----------------|
+| 截图 | 真实产品/网页/App 界面截图或录屏 | manual |
+| 真实人物 | 提到的真实公众人物照片 | manual |
+| 文字卡 | 关键概念、金句、结论的排版动效 | post_production |
+| 数据图表 | 统计数字、趋势图、对比图 | post_production |
+| 概念画面 | 抽象隐喻、无法实拍的概念可视化 | ai_video / ai_image |
+| 引用片段 | 新闻报道、产品演示、公开视频截取 | manual |
+| 信息图 | 逻辑关系图、流程图、对比表 | post_production |
+| 留白 | 纯色/渐变背景，让声音主导 | simple |
+| 书籍 | 提到的书籍/论文封面 | ai_image / manual |
+| 分屏 | 多画面同时展示 | post_production |
+
+### 媒体格式（media_format）
+
+| 格式 | 说明 |
+|------|------|
+| ai_video | AI 生成 5-10 秒动态视频（Veo 3/Seedance/Kling/Sora） |
+| ai_image | AI 生成静态图片 |
+| manual | 需人工准备（截图、搜索真实照片、录屏） |
+| post_production | 后期制作（文字动效、数据图表、信息图） |
+| simple | 简单背景，无需制作 |
 
 ### 镜头时长
 
@@ -98,12 +111,12 @@ python scripts/generate_storyboard.py <project_dir> [--style <风格>] [--durati
 - 慢节奏段落（故事展开、情感共鸣、结尾沉淀）：5-8 秒/镜头
 - 绝对上限：单镜头不超过 10 秒
 
-### image_prompt 规则
+### visual_description 规则
 
-- 必须用英文
-- 描述具体、可视化的画面，直接给 Nano Banana（Gemini Image API）使用
-- 包含画面构图、光线、色调、氛围
-- 15-50 个英文单词
+- **ai_video / ai_image**：必须用英文，15-50 个单词，ai_video 需强调动作和运动
+- **manual**：用中文说明需要准备什么
+- **post_production**：用中文说明展示内容和动效方式
+- **simple**：用中文说明背景色调
 
 ### 情绪标注
 
@@ -129,12 +142,13 @@ python scripts/generate_storyboard.py <project_dir> [--style <风格>] [--durati
 - [ ] 逐字稿中每句话都有对应镜头
 - [ ] 所有提到的人名都有对应镜头
 - [ ] 所有提到的书籍都有对应镜头
-- [ ] 所有数据/统计都有数据动效镜头（is_post_production: true）
+- [ ] 所有数据/统计都有数据动效镜头（media_format: post_production）
 
-#### Prompt 检查
-- [ ] 全部为英文
-- [ ] 画面描述具体可生成（非抽象概念）
-- [ ] 人物和书籍描述准确
+#### 格式检查
+- [ ] ai_video/ai_image 的 visual_description 为英文
+- [ ] 真实人物使用 manual 而非 ai_image
+- [ ] AI 生成素材（ai_video + ai_image）占比不超过 50%
+- [ ] 包含文字卡和手动素材（截图/真实人物/引用片段）
 
 #### 情绪曲线检查
 - [ ] 开头有紧张/好奇感

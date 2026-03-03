@@ -66,7 +66,7 @@ def call_gemini_api(prompt: str, api_key: str) -> str:
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "temperature": 0.7,
-            "maxOutputTokens": 8192,
+            "maxOutputTokens": 16384,
             "responseMimeType": "application/json",
         },
     }
@@ -110,17 +110,39 @@ def parse_json_response(text: str) -> list:
     return data
 
 
+VALID_ASSET_TYPES = {"截图", "真实人物", "文字卡", "数据图表", "概念画面", "引用片段", "信息图", "留白", "书籍", "分屏"}
+VALID_MEDIA_FORMATS = {"ai_video", "ai_image", "manual", "post_production", "simple"}
+
+
 def validate_storyboard(shots: list) -> list[str]:
     """校验分镜数据，返回警告列表"""
     warnings = []
     for i, shot in enumerate(shots):
-        required = ["shot_number", "time_range", "script_text", "asset_type", "image_prompt", "mood", "is_post_production"]
+        required = ["shot_number", "time_range", "script_text", "asset_type", "media_format", "visual_description", "mood", "duration_seconds"]
         missing = [k for k in required if k not in shot]
         if missing:
             warnings.append(f"镜头 {i+1}: 缺少字段 {missing}")
 
-        if shot.get("asset_type") in ("数据", "文字", "分屏") and not shot.get("is_post_production"):
-            warnings.append(f"镜头 {shot.get('shot_number', i+1)}: {shot['asset_type']} 类型应标记 is_post_production=true")
+        asset_type = shot.get("asset_type", "")
+        if asset_type and asset_type not in VALID_ASSET_TYPES:
+            warnings.append(f"镜头 {shot.get('shot_number', i+1)}: 未知 asset_type '{asset_type}'")
+
+        media_format = shot.get("media_format", "")
+        if media_format and media_format not in VALID_MEDIA_FORMATS:
+            warnings.append(f"镜头 {shot.get('shot_number', i+1)}: 未知 media_format '{media_format}'")
+
+    # 比例检查
+    if shots:
+        total = len(shots)
+        ai_count = sum(1 for s in shots if s.get("media_format") in ("ai_video", "ai_image"))
+        if ai_count / total > 0.5:
+            warnings.append(f"⚠️  AI 生成素材占比 {ai_count}/{total} ({round(ai_count/total*100)}%)，建议不超过 50%")
+
+        type_set = {s.get("asset_type") for s in shots}
+        if "文字卡" not in type_set:
+            warnings.append("⚠️  缺少「文字卡」类型，核心概念和结论应使用文字卡")
+        if not type_set & {"截图", "真实人物", "引用片段"}:
+            warnings.append("⚠️  缺少手动素材（截图/真实人物/引用片段），视频缺乏真实感")
 
     return warnings
 
@@ -134,27 +156,33 @@ def generate_markdown(shots: list, title: str = "视频") -> str:
         "",
         "---",
         "",
-        "| 镜头 | 时间 | 对应逐字稿 | 素材类型 | 图片生成 Prompt | 情绪/节奏 | 后期 |",
-        "|------|------|-----------|---------|----------------|----------|------|",
+        "| 镜头 | 时间 | 秒 | 对应逐字稿 | 素材类型 | 媒体格式 | 画面说明 | 情绪 |",
+        "|------|------|----|-----------|---------|---------|---------|------|",
     ]
 
     for shot in shots:
         num = str(shot.get("shot_number", "")).zfill(3)
         time_range = shot.get("time_range", "")
+        duration = shot.get("duration_seconds", "")
         script_text = shot.get("script_text", "")[:30]
         asset_type = shot.get("asset_type", "")
-        prompt = shot.get("image_prompt", "")[:60]
+        media_format = shot.get("media_format", "")
+        desc = shot.get("visual_description", shot.get("image_prompt", ""))[:50]
         mood = shot.get("mood", "")
-        post = "✅" if shot.get("is_post_production") else ""
-        lines.append(f"| {num} | {time_range} | {script_text} | {asset_type} | {prompt} | {mood} | {post} |")
+        lines.append(f"| {num} | {time_range} | {duration} | {script_text} | {asset_type} | {media_format} | {desc} | {mood} |")
 
-    # 统计
+    # asset_type 统计
     type_counts: dict[str, int] = {}
     for shot in shots:
         t = shot.get("asset_type", "其他")
         type_counts[t] = type_counts.get(t, 0) + 1
 
-    post_count = sum(1 for s in shots if s.get("is_post_production"))
+    # media_format 统计
+    format_counts: dict[str, int] = {}
+    for shot in shots:
+        f = shot.get("media_format", "其他")
+        format_counts[f] = format_counts.get(f, 0) + 1
+
     lines.extend([
         "",
         "---",
@@ -162,13 +190,20 @@ def generate_markdown(shots: list, title: str = "视频") -> str:
         "## 分镜统计",
         "",
         f"- 总镜头数：{len(shots)} 个",
-        f"- 需生成图片：{len(shots) - post_count} 个",
-        f"- 后期制作：{post_count} 个",
-        "- 素材类型分布：",
+        "",
+        "### 按素材类型（asset_type）",
     ])
     for t, c in sorted(type_counts.items(), key=lambda x: -x[1]):
         pct = round(c / len(shots) * 100)
-        lines.append(f"  - {t}：{c} 个（{pct}%）")
+        lines.append(f"- {t}：{c} 个（{pct}%）")
+
+    lines.extend([
+        "",
+        "### 按媒体格式（media_format）",
+    ])
+    for f, c in sorted(format_counts.items(), key=lambda x: -x[1]):
+        pct = round(c / len(shots) * 100)
+        lines.append(f"- {f}：{c} 个（{pct}%）")
 
     return "\n".join(lines) + "\n"
 
@@ -235,11 +270,15 @@ def main():
     print(f"✅ storyboard.md 已生成 → {md_path}")
 
     # 7. 输出摘要
-    post_count = sum(1 for s in shots if s.get("is_post_production"))
+    format_counts: dict[str, int] = {}
+    for s in shots:
+        f = s.get("media_format", "其他")
+        format_counts[f] = format_counts.get(f, 0) + 1
     print(f"\n📊 分镜摘要：")
     print(f"   总镜头数：{len(shots)}")
-    print(f"   需生成图片：{len(shots) - post_count}")
-    print(f"   后期制作：{post_count}")
+    for f, c in sorted(format_counts.items(), key=lambda x: -x[1]):
+        pct = round(c / len(shots) * 100)
+        print(f"   {f}：{c} 个（{pct}%）")
 
 
 if __name__ == "__main__":
