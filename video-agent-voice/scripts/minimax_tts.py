@@ -84,16 +84,19 @@ def tts_single_chunk(
     emotion: str = "auto",
 ) -> None:
     """调用 MiniMax T2A v2 API 将单段文本转为语音"""
+    voice_setting = {
+        "voice_id": voice_id,
+        "speed": speed,
+        "vol": 1.0,
+        "pitch": 0,
+    }
+    if emotion and emotion != "none":
+        voice_setting["emotion"] = emotion
+
     payload = {
         "model": model,
         "text": text,
-        "voice_setting": {
-            "voice_id": voice_id,
-            "speed": speed,
-            "vol": 1.0,
-            "pitch": 0,
-            "emotion": emotion,
-        },
+        "voice_setting": voice_setting,
         "audio_setting": {
             "format": "mp3",
             "sample_rate": 32000,
